@@ -1,5 +1,4 @@
 "use client";
-import { ShoppingBag } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
 import { ProductCatalog } from "@/components/ProductCatalog";
@@ -36,7 +35,7 @@ export default function Home() {
     });
   }
   return <LucianSiteMenu onNavigate={() => setCatalogVersion((version) => version + 1)}><main>
-    <header className="nav"><a className="brand" href="#inicio" aria-label="Proarquero, inicio"><Image className="site-logo" src="/images/proarquero-logo.png" alt="Proarquero" width={210} height={104} priority unoptimized /></a><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}><ShoppingBag size={20} /><span>{count}</span></button></header>
+    <header className="nav"><a className="brand" href="#inicio" aria-label="Proarquero, inicio"><Image className="site-logo" src="/images/proarquero-logo.png" alt="Proarquero" width={210} height={104} priority unoptimized /></a><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}>Carrito<span>{count}</span></button></header>
     <section id="inicio" className="hero"><div className="hero-image" /><div className="hero-grain" /><div className="hero-copy"><p className="eyebrow reveal">PROARQUERO · EQUIPAMIENTO PARA ARQUEROS</p><h1 className="reveal delay-1">TODO PARA<br /><i>DEFENDER</i><br />EL ARCO.</h1><p className="hero-description reveal delay-2">Encontrá tus guantes, tu indumentaria y el equipo para entrar a la cancha.</p></div><div className="hero-foot"><span>BUENOS AIRES · ARG</span><span>DESCUBRÍ LA COLECCIÓN <b>↓</b></span></div></section>
     <section id="coleccion" className="collection section"><div className="section-top"><p className="eyebrow dark-text">Inicio / Productos</p><h2>Equipamiento para arqueros</h2><p className="section-intro">Guantes, pelotas, indumentaria, accesorios y calzado. Descubrí cada categoría.</p></div><ProductCatalog key={catalogVersion} items={items} onAdd={addToCart} /></section>
     <LucianCardStack />

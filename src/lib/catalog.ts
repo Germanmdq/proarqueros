@@ -36,7 +36,13 @@ export type CartItem = {
   quantity: number;
 };
 
-export const products: Product[] = [...rinatCatalog, ...catalog];
+export const products: Product[] = [...rinatCatalog, ...catalog].map((product) => {
+  // Legacy illustrative photos are gloves, never photos of other categories.
+  if (product.isReferenceImage && product.category !== "Guantes") {
+    return { ...product, image: null, isReferenceImage: false };
+  }
+  return product;
+});
 export const categories = ["Todo", "Guantes", "Pelotas", "Indumentaria", "Accesorios", "Calzado"];
 export const categoryAnchor = (category: string) => `categoria-${category.toLowerCase()}`;
 export const productColors = (product: Product) => product.colors?.length ? product.colors : [product.color ?? "A confirmar"];
