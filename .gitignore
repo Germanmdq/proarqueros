@@ -47,3 +47,13 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Local exports, test artifacts, and binaries
+outputs/
+*.log
+cloudflared.exe
+*.tar.gz
+tsconfig.tsbuildinfo
+
+# Locally installed agent skills
+.agents/skills/lucian-uxui/
