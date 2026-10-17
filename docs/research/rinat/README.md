@@ -37,3 +37,5 @@ El HTML público se cachea en `outputs/rinat-cache/` (ignorado por Git).
 La portada presenta hasta seis productos por categoría en este orden: Guantes,
 Pelotas, Indumentaria, Accesorios, Calzado. “Ver todo” expande cada serie sin perder
 el acceso a las demás. Los filtros/búsqueda permiten consultar los 235 productos.
+El hero no tiene botón y ocupa `100dvh` en todos los tamaños, sin el antiguo tope
+de 720px. La foto se alinea arriba y cambia su punto de encuadre en móvil.

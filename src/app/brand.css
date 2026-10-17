@@ -10,7 +10,8 @@ html,body{background:#fff}
 .nav-links{grid-column:1;grid-row:1;gap:22px;font-size:11px;letter-spacing:.08em}
 .nav .bag{grid-column:3;grid-row:1;justify-self:end;color:var(--ink);margin-right:60px;font-size:12px}
 .bag span{display:grid;place-items:center;background:var(--blue);color:#fff;border-radius:99px;min-width:18px;height:18px}
-.hero{min-height:520px;height:62vh;max-height:720px;background:#101c30}
+.hero{height:100dvh;min-height:100dvh;max-height:none;background:#101c30}
+.hero-image{background-position:center top;transform:none;animation:none}
 .hero-copy{padding:65px max(40px,6vw);max-width:830px}
 .hero h1{font-size:clamp(48px,6vw,88px);line-height:.94;letter-spacing:-.065em;font-weight:650}
 .hero h1 i{font:inherit;letter-spacing:inherit;color:#a7cdff}
@@ -33,4 +34,4 @@ html,body{background:#fff}
 .button-dark{background:var(--blue);color:#fff;border-radius:6px}
 footer{background:#0e1726;padding:28px max(40px,6vw)}
 footer .site-logo{filter:none;mix-blend-mode:screen;width:160px;height:82px}
-@media(max-width:720px){.nav{height:98px;grid-template-columns:minmax(0,1fr) 140px minmax(0,1fr);padding:5px 18px}.site-logo{width:140px;height:88px}.nav-links{display:none}.nav .bag{margin:0 50px 0 0}.hero{height:600px;min-height:600px}.hero-copy{padding:55px 6vw}.hero h1{font-size:clamp(44px,12vw,68px)}.hero-description{font-size:14px;max-width:300px}.hero-foot{left:6vw;right:6vw}.collection.section{padding:35px 18px 60px}.section-top{display:block;margin-bottom:28px}.section-top .eyebrow{margin-bottom:18px}.section h2{font-size:27px}.section-intro{margin-top:14px;max-width:none}.technology{padding:60px 6vw}.club-card{min-height:350px;padding:50px 6vw}}
+@media(max-width:720px){.nav{height:98px;grid-template-columns:minmax(0,1fr) 140px minmax(0,1fr);padding:5px 18px}.site-logo{width:140px;height:88px}.nav-links{display:none}.nav .bag{margin:0 50px 0 0}.hero{height:100dvh;min-height:100dvh}.hero-image{background-position:78% top}.hero-copy{padding:55px 6vw}.hero h1{font-size:clamp(44px,12vw,68px)}.hero-description{font-size:14px;max-width:300px}.hero-foot{left:6vw;right:6vw}.collection.section{padding:35px 18px 60px}.section-top{display:block;margin-bottom:28px}.section-top .eyebrow{margin-bottom:18px}.section h2{font-size:27px}.section-intro{margin-top:14px;max-width:none}.technology{padding:60px 6vw}.club-card{min-height:350px;padding:50px 6vw}}
