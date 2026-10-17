@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import { formatPrice, products, type CartItem } from "@/lib/catalog";
+import { formatPrice, products, variantPrice, type CartItem } from "@/lib/catalog";
 import "./lucian-cart-catalog.css";
 
 type Props = { items: CartItem[]; open: boolean; onClose: () => void; onQuantityChange: (item: CartItem, quantity: number) => void };
@@ -31,10 +31,10 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
     const variant = product?.variants.find((value) => value.id === item.variantId);
     return product && variant ? [{ ...item, product, variant }] : [];
   });
-  const total = lines.reduce((sum, line) => sum + line.product.price * line.quantity, 0);
+  const total = lines.reduce((sum, line) => sum + variantPrice(line.product, line.variant) * line.quantity, 0);
   const count = lines.reduce((sum, line) => sum + line.quantity, 0);
   const message = ["Hola, quisiera consultar este pedido de Proarquero:", ...lines.map((line) =>
-    `${line.product.brand} ${line.product.name} · ${line.product.audience} · ${line.product.variantLabel}: ${line.variant.label} · Color: ${line.product.color ?? "a confirmar"} · Cantidad: ${line.quantity} · Subtotal: ${formatPrice(line.product.price * line.quantity)}`),
+    `${line.product.brand} ${line.product.name} · ${line.product.audience} · ${line.product.variantLabel}: ${line.variant.label} · Color: ${line.variant.color ?? line.product.color ?? "a confirmar"} · Cantidad: ${line.quantity} · Subtotal: ${formatPrice(variantPrice(line.product, line.variant) * line.quantity)}`),
     `Total al contado: ${formatPrice(total)}`, "¿Podrían confirmarme talles, colores y disponibilidad?"].join("\n\n");
 
   return <div className="ux u240-shell u240-catalog" onKeyDown={(event) => {
@@ -56,11 +56,11 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
         {lines.map((line) => {
           const allocated = items.filter((item) => item.productId === line.product.id).reduce((sum, item) => sum + item.quantity, 0);
           return <div className="u240-in" key={line.variantId}>
-            {line.product.image ? <Image className="u240-th" src={line.product.image} alt={line.product.isReferenceImage ? "Imagen ilustrativa" : line.product.name} width={54} height={62} unoptimized /> : null}
-            <div className="u240-tx"><b>{line.product.brand} {line.product.name}</b><small>{line.product.audience} · {line.variant.label}</small><small>Color: {line.product.color ?? "a confirmar"}</small>
+            {line.product.image ? <Image className="u240-th" src={line.variant.image ?? line.product.image} alt={line.product.isReferenceImage ? "Imagen ilustrativa" : line.product.name} width={54} height={62} unoptimized /> : null}
+            <div className="u240-tx"><b>{line.product.brand} {line.product.name}</b><small>{line.product.audience} · {line.variant.label}</small><small>Color: {line.variant.color ?? line.product.color ?? "a confirmar"}</small>
               <div className="u240-qt"><button type="button" aria-label={`Quitar una unidad de ${line.product.name} ${line.variant.label}`} onClick={() => onQuantityChange(line, line.quantity - 1)}>−</button><span>{line.quantity}</span><button type="button" aria-label={`Agregar una unidad de ${line.product.name} ${line.variant.label}`} disabled={allocated >= line.product.stock} onClick={() => onQuantityChange(line, line.quantity + 1)}>+</button></div>
               <button className="u240-remove" type="button" onClick={() => onQuantityChange(line, 0)}>Eliminar</button>
-            </div><strong>{formatPrice(line.product.price * line.quantity)}</strong>
+            </div><strong>{formatPrice(variantPrice(line.product, line.variant) * line.quantity)}</strong>
           </div>;
         })}
       </div>

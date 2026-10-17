@@ -2,14 +2,14 @@
 "use client";
 
 import { useEffect, useId, useRef, useState, type KeyboardEvent, type PointerEvent } from "react";
-import { categories, formatPrice, products, type Product } from "@/lib/catalog";
+import { categories, formatPrice, productColors, products, type Product } from "@/lib/catalog";
 import "./lucian-filter-drawer.css";
 
 const low = Math.min(...products.map((product) => product.price));
 const high = Math.max(...products.map((product) => product.price));
 const brands = [...new Set(products.map((product) => product.brand))].sort();
-const sizes = [...new Set(products.flatMap((product) => product.variants.map((variant) => variant.label)))];
-const colors = [...new Set(products.map((product) => product.color ?? "A confirmar"))];
+const sizes = [...new Set(products.flatMap((product) => product.variants.map((variant) => variant.size ?? variant.label)))];
+const colors = [...new Set(products.flatMap(productColors))].sort();
 const colorHex: Record<string, string> = { Negro: "#242424", Blanco: "#fff", Naranja: "#ff8c30", Amarillo: "#ecea3a", Rojo: "#dc4b4b", "A confirmar": "#b6baae" };
 export type CatalogFilters = { min: number; max: number; categories: string[]; brands: string[]; sizes: string[]; colors: string[]; audiences: string[] };
 export const emptyFilters = (): CatalogFilters => ({ min: low, max: high, categories: [], brands: [], sizes: [], colors: [], audiences: [] });
@@ -19,8 +19,8 @@ export function matchesFilters(product: Product, filter: CatalogFilters) {
   return product.price >= filter.min && product.price <= filter.max
     && (!filter.categories.length || filter.categories.includes(product.category))
     && (!filter.brands.length || filter.brands.includes(product.brand))
-    && (!filter.sizes.length || product.variants.some((variant) => filter.sizes.includes(variant.label)))
-    && (!filter.colors.length || filter.colors.includes(product.color ?? "A confirmar"))
+    && product.variants.some((variant) => (!filter.sizes.length || filter.sizes.includes(variant.size ?? variant.label))
+      && (!filter.colors.length || filter.colors.includes(variant.color ?? product.color ?? "A confirmar")))
     && (!filter.audiences.length || filter.audiences.includes(product.audience));
 }
 

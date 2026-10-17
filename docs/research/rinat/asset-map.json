@@ -1,0 +1,1709 @@
+{
+  "source": "https://www.rinatargentina.ar/",
+  "retrievedAt": "2026-10-17T01:37:48.343594+00:00",
+  "cataloguePages": [
+    "https://www.rinatargentina.ar/productos/",
+    "https://www.rinatargentina.ar/productos/page/2/",
+    "https://www.rinatargentina.ar/productos/page/3/",
+    "https://www.rinatargentina.ar/productos/page/4/"
+  ],
+  "sitemapProducts": 37,
+  "listedProducts": 37,
+  "products": 37,
+  "variants": 202,
+  "images": 188,
+  "assets": [
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268058893",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-blanco-72ae5906c6411e475917888735226678-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268058893.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 141246
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268058886",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-blanco-d1-07ef2b6052b64fd54417888735222496-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268058886.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 122992
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268058881",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-blanco-d2-7e9c6bf303d2bd708017888735220949-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268058881.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 140454
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268058871",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-blanco-d3-d95acf5f8d72b69b5617888735214497-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268058871.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 72934
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268058878",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-blanco-d4-81e603ef16557d29ed17888735218590-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268058878.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 84042
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268059015",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-negro-4602d646c429b1c50317888735361476-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268059015.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 158588
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268059010",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-negro-d1-1-86af75074df5f9b91817888735353663-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268059010.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 176576
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268059009",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-negro-d2-995707062c3120705417888735351739-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268059009.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 141110
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268059004",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-negro-d4-1785fbfddfc2a4d20517888735349785-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268059004.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 102476
+    },
+    {
+      "productId": "rinat-366070427",
+      "imageId": "1268059001",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-evo-negro-d3-a77bc9566ef134338b17888735349505-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366070427/1268059001.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 133468
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268054072",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-negro-azul-rosa-abd62b876497eb027717888731201627-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268054072.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 221040
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268054063",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-negro-azul-rosa-d1-2f936bb1f65b14edac17888731196565-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268054063.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 180334
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268054070",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-negro-azul-rosa-d2-5e103e53967d42cb2e17888731201301-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268054070.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 162794
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268054053",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-negro-azul-rosa-d3-8d8af59b867895b8db17888731186546-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268054053.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 137028
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268054047",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-negro-azul-rosa-d4-e27596a2429e5ac28117888731182802-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268054047.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 101728
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268053752",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-blanco-multicolor-b0ec77537e0295afa417888730949539-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268053752.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 166528
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268053741",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-blanco-muticolor-d2-19ac1de9bc2647044017888730940026-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268053741.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 65610
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268053744",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-blanco-muticolor-d3-a7f663c1b14982479017888730941411-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268053744.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 102196
+    },
+    {
+      "productId": "rinat-366069088",
+      "imageId": "1268053742",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-prime-blanco-muticolor-d4-815dbe2dc4cc04afff17888730940786-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366069088/1268053742.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 63086
+    },
+    {
+      "productId": "rinat-366068317",
+      "imageId": "1268050951",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-prime-multicolor-blanco-7baed5cfdd345f5ffe17791441839571-1024-1024-6dbdd127d490a248b417888728588616-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366068317/1268050951.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 76176
+    },
+    {
+      "productId": "rinat-366068317",
+      "imageId": "1268050959",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-prime-multicolor-blanco-d1-0e7ce4038615db812f17791441841105-1024-1024-b8d45cd1902defb29117888728593280-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366068317/1268050959.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 54756
+    },
+    {
+      "productId": "rinat-366068317",
+      "imageId": "1268050952",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-prime-multicolor-blanco-d2-d41471194afdaaef6317791441838941-1024-1024-23e8315b1cc9d59f9817888728588631-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366068317/1268050952.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 43858
+    },
+    {
+      "productId": "rinat-366068317",
+      "imageId": "1268050958",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-prime-multicolor-blanco-d3-050c39defe0b23294617791441840637-1024-1024-936e67f1c615c5bfe817888728592539-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366068317/1268050958.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 41416
+    },
+    {
+      "productId": "rinat-366068317",
+      "imageId": "1268050949",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-prime-multicolor-blanco-d4-8bbbddb6dadc6197bd17791441837957-1024-1024-a16f25013daecbd67517888728588100-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366068317/1268050949.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 23260
+    },
+    {
+      "productId": "rinat-366067133",
+      "imageId": "1268044305",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-pro-multicolor-blanco-fe9a85260afd8a9f4e17888723085111-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366067133/1268044305.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 161504
+    },
+    {
+      "productId": "rinat-366067133",
+      "imageId": "1268044308",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-pro-multicolor-blanco-d1-6217f0f50a05fd490017888723085734-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366067133/1268044308.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 179774
+    },
+    {
+      "productId": "rinat-366067133",
+      "imageId": "1268044303",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-pro-multicolor-blanco-d2-40ba368c091b3e33d117888723084315-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366067133/1268044303.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 94728
+    },
+    {
+      "productId": "rinat-366067133",
+      "imageId": "1268044300",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-pro-multicolor-blanco-d4-7d9664d9345f69af5d17888723082076-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366067133/1268044300.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 79128
+    },
+    {
+      "productId": "rinat-366067133",
+      "imageId": "1268044307",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-pro-multicolor-blanco-d3-a3daf5ea227ff6e11f17888723085285-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366067133/1268044307.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 93314
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040366",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-negro-blanco-rojo-507d99084a3138aa2417888719860029-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040366.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 158530
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040371",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-negro-blanco-rojo-d1-33d477a9b85f34d9a317888719863718-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040371.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 149980
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040362",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-negro-blanco-rojo-d2-a8f9b1a21b3814f8c217888719859519-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040362.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 119020
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040351",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-negro-blanco-rojo-d4-c6f0adaa03221c59f417888719852775-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040351.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 85058
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040359",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-negro-blanco-rojo-d3-5de7d7a844ff26ffff17888719856691-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040359.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 93040
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040372",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-blanco-rojo-9af5e74d947dad725617888719863416-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040372.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 131464
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040370",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-blanco-rojo-d1-094167cd59256809dd17888719862814-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040370.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 147138
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040365",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-blanco-rojo-d2-5620320efd49159cb217888719859981-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040365.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 72344
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040361",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-blanco-rojo-d4-6ee042fbec18fcc86017888719859020-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040361.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 81550
+    },
+    {
+      "productId": "rinat-366066497",
+      "imageId": "1268040364",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/uno-premier-pro-blanco-rojo-d3-bffd4d798fc2559c6417888719859467-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366066497/1268040364.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 84112
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1268036867",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-pro-blanco-azul-fac3a2ae863c4c8d3917888717042141-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1268036867.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 125958
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1268036864",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-pro-blanco-azul-d1-dd24a79e102e3ce2e417888717040682-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1268036864.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 130472
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1268036866",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-pro-blanco-azul-d2-cfebd44d657b645dc717888717041654-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1268036866.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 46726
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1268036862",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-pro-blanco-azul-d4-ba88239a96b5405d4417888717038685-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1268036862.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 55348
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1268036863",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-aero-pro-blanco-azul-d3-cec61c0fab93bb16c617888717039732-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1268036863.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 72124
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1270744231",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/s-l1600-5f681ca7c1b95a69cc17891347001267-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1270744231.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 36612
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1270744233",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/s-l1600-2-58deff49664a6a10c917891347001410-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1270744233.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 40696
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1270744228",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/s-l1600-1-9fd7704608b50d371717891346998671-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1270744228.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 14000
+    },
+    {
+      "productId": "rinat-366065897",
+      "imageId": "1270744229",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/s-l1600-3-e20501c0009acef92617891346999533-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-366065897/1270744229.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 20518
+    },
+    {
+      "productId": "rinat-342824689",
+      "imageId": "1188544174",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pesquero-energy-2023-d-f61c466d650a5cfcf417782447135771-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342824689/1188544174.webp",
+      "width": 1024,
+      "height": 1815,
+      "bytes": 497246
+    },
+    {
+      "productId": "rinat-342824689",
+      "imageId": "1188544153",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pesquero-energy-2023-a-cdb57ddda8882d78e217782447123405-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342824689/1188544153.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 113652
+    },
+    {
+      "productId": "rinat-342824689",
+      "imageId": "1188544151",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pesquero-energy-2023-b-a1175bbe26477eebe217782447122235-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342824689/1188544151.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 125954
+    },
+    {
+      "productId": "rinat-342824689",
+      "imageId": "1188544149",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pesquero-energy-2023-c-0de620879a26a1eaf717782447120765-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342824689/1188544149.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 136808
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538179",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-negro-1-3618e73f3798a5458617782441588924-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538179.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 150014
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538177",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-negro-3-28b9e103a2d7dab33017782441587826-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538177.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 115646
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538180",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-negro-4-228b30f61cf44fc02f17782441588850-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538180.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 132986
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538187",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-gris-1-65f08d4f181329b0bf17782441596590-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538187.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 148860
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538184",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-gris-3-0bd009a4e63cde1c1f17782441593302-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538184.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 172526
+    },
+    {
+      "productId": "rinat-342823058",
+      "imageId": "1188538214",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/zapatera-rnt-gris-4-403999d6b5d51b87ee17782441614032-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342823058/1188538214.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 161716
+    },
+    {
+      "productId": "rinat-342648628",
+      "imageId": "1187843320",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/short-underguard-rx5-2-9e844b5b1a69b3898017781641327676-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342648628/1187843320.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 120536
+    },
+    {
+      "productId": "rinat-342648628",
+      "imageId": "1187843330",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/short-underguard-rx5-1-ac8e9b170bb35f2c7517781641333252-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342648628/1187843330.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 117340
+    },
+    {
+      "productId": "rinat-342648628",
+      "imageId": "1187843321",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/short-underguard-rx5-3-def2ff247f56118ae617781641329637-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342648628/1187843321.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 172926
+    },
+    {
+      "productId": "rinat-342648628",
+      "imageId": "1187843329",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/short-underguard-rx5-5-afdfc2863dc7db244817781641331603-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342648628/1187843329.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 318496
+    },
+    {
+      "productId": "rinat-342632209",
+      "imageId": "1187786842",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/d9e47-_0004_under-shield-1-76670291066da7a38e17781608474662-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342632209/1187786842.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 91116
+    },
+    {
+      "productId": "rinat-342632209",
+      "imageId": "1187786847",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/041b18604a60201623819b8ccded2330-56b353bbfa41b8a73017781608476684-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342632209/1187786847.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 73342
+    },
+    {
+      "productId": "rinat-342632209",
+      "imageId": "1187786849",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/96b211afa52b0c7f1ca77ab59c1dcdc7-5eab53ecf79c7faa0d17781608477836-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342632209/1187786849.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 66288
+    },
+    {
+      "productId": "rinat-342632209",
+      "imageId": "1187786844",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/b9c50e3dca4a847d347e52ddc4562c3b-c6a9297d14179b5c3117781608475414-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342632209/1187786844.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 65354
+    },
+    {
+      "productId": "rinat-342632209",
+      "imageId": "1187786852",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/1992bd738fa1275f8feb4813adf25481-0720164df5e851db0f17781608479601-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342632209/1187786852.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 76322
+    },
+    {
+      "productId": "rinat-342416558",
+      "imageId": "1186886140",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/shampoo-d7efc7181970f8b00217780792742128-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342416558/1186886140.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 13946
+    },
+    {
+      "productId": "rinat-342411004",
+      "imageId": "1186857897",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/69b9d9232f195c9cc70f4823c804d138-d99eb8c5fb2c44166517780776184177-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342411004/1186857897.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 65520
+    },
+    {
+      "productId": "rinat-342411004",
+      "imageId": "1186857898",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/90b292ba30c042b2a2f94e4b10b36f0d-24fde99c43ab85e3da17780776183600-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342411004/1186857898.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 155268
+    },
+    {
+      "productId": "rinat-342411004",
+      "imageId": "1186857900",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/04c5f8312402e26538d3d44afd232d52-b66f02a2de1203156417780776183388-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342411004/1186857900.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 107288
+    },
+    {
+      "productId": "rinat-342409936",
+      "imageId": "1186850197",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/manga-con-mano-transparente-1-6279d956bb0a24313617780771545763-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342409936/1186850197.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 40468
+    },
+    {
+      "productId": "rinat-342409936",
+      "imageId": "1186850196",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/codera-vista-cercana-d3f70c84ca3b14396017780771544828-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342409936/1186850196.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 265592
+    },
+    {
+      "productId": "rinat-342409936",
+      "imageId": "1186850203",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/codera-vista-frente-2887ad7524c6bc56fb17780771546863-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-342409936/1186850203.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 199450
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164407891",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-af56483d70a4c1ac8217758240408704-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164407891.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 54568
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164407890",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-2-949ce4d7f6d3b64ea217758240408694-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164407890.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 61192
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164407892",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-3-62f5f438b5a7cdba1c17758240407771-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164407892.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 51838
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164411696",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-2-820b89ec01de4e7d2c17758243316963-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164411696.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 60556
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164411692",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-b4bf5eda217821648b17758243316445-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164411692.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 62660
+    },
+    {
+      "productId": "rinat-337127932",
+      "imageId": "1164411693",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-3-9c89fbd35d199c60cb17758243316773-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-337127932/1164411693.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 58428
+    },
+    {
+      "productId": "rinat-336314489",
+      "imageId": "1161219775",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-prime-3cdd65bf75f6ef8e4217755682454235-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336314489/1161219775.webp",
+      "width": 640,
+      "height": 721,
+      "bytes": 80898
+    },
+    {
+      "productId": "rinat-336314489",
+      "imageId": "1161219770",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-prime-2-da2de45f60fb77a34317755682452604-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336314489/1161219770.webp",
+      "width": 640,
+      "height": 721,
+      "bytes": 40416
+    },
+    {
+      "productId": "rinat-336314489",
+      "imageId": "1161219771",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-3-5977e5880147f1f63f17755682453549-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336314489/1161219771.webp",
+      "width": 640,
+      "height": 721,
+      "bytes": 58486
+    },
+    {
+      "productId": "rinat-336312585",
+      "imageId": "1161207565",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-4-fc3c0765777fee1cad17755675471560-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336312585/1161207565.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 123014
+    },
+    {
+      "productId": "rinat-336312585",
+      "imageId": "1161207560",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-2-5462da8d29dd68277617755675471271-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336312585/1161207560.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 129644
+    },
+    {
+      "productId": "rinat-336312585",
+      "imageId": "1161207553",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fiera-3-80551aca9b83f730e217755675467808-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-336312585/1161207553.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 58272
+    },
+    {
+      "productId": "rinat-319933068",
+      "imageId": "1090641858",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-e7691b0fd07dc1271b17623620873563-1024-1024-5a0359551ab4ff488817690269596211-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319933068/1090641858.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 60030
+    },
+    {
+      "productId": "rinat-319933068",
+      "imageId": "1090641859",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d1-a73432b1126290222017623621099661-1024-1024-52f6691db342da6ae917690269596382-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319933068/1090641859.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 42964
+    },
+    {
+      "productId": "rinat-319933068",
+      "imageId": "1090641857",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d2-7bb24a50d134673eab17623621050942-1024-1024-2c2d3fdc0e1196a06617690269596466-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319933068/1090641857.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 58968
+    },
+    {
+      "productId": "rinat-319933068",
+      "imageId": "1090641853",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d3-42d6020b99ca79fdd117623621014985-1024-1024-643a351684fb5da58017690269595516-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319933068/1090641853.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 32286
+    },
+    {
+      "productId": "rinat-319928576",
+      "imageId": "1090633304",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-e7691b0fd07dc1271b17623620873563-1024-1024-2fca057dd55b7ca1c217690265010371-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319928576/1090633304.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 60030
+    },
+    {
+      "productId": "rinat-319928576",
+      "imageId": "1090633302",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d1-a73432b1126290222017623621099661-1024-1024-8f045bae0568847ce617690265009802-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319928576/1090633302.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 42964
+    },
+    {
+      "productId": "rinat-319928576",
+      "imageId": "1090633303",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d2-7bb24a50d134673eab17623621050942-1024-1024-b1f6acc5d305ebe42d17690265010437-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319928576/1090633303.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 58968
+    },
+    {
+      "productId": "rinat-319928576",
+      "imageId": "1090633306",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-prime-blanco-azul-naranja-d3-42d6020b99ca79fdd117623621014985-1024-1024-a9f8a870f0f508999c17690265013029-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319928576/1090633306.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 32286
+    },
+    {
+      "productId": "rinat-319924527",
+      "imageId": "1090607397",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-azul-blanco-9c25d23c30bd1bb0e217635867281185-1024-1024-4530f7461e3dd5eb3a17690251112065-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319924527/1090607397.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 54698
+    },
+    {
+      "productId": "rinat-319924527",
+      "imageId": "1090607400",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-azul-blanco-d1-b7cbd9b0275e11e1e217635867279838-1024-1024-95bcdd6498ab90a01017690251112479-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319924527/1090607400.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 49018
+    },
+    {
+      "productId": "rinat-319924527",
+      "imageId": "1090607392",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-azul-blanco-d2-95b43ca57e1d67bb9e17635867278695-1024-1024-8d755d50efdb4db8db17690251110390-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319924527/1090607392.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 22650
+    },
+    {
+      "productId": "rinat-319924527",
+      "imageId": "1090607399",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-azul-blanco-d3-5252bd99e997d6ba3117635867277849-1024-1024-cb309deced0345655317690251112356-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319924527/1090607399.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 32996
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1090592586",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-azul-fafc360c0a046204a517606529186255-1024-1024-7f779fece9b8a1869017690243823223-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1090592586.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 55232
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1090592595",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-azul-d1-a9d3e501490c902b6d17606529391725-1024-1024-3ebb52a73ea2b232c917690243827898-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1090592595.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 50492
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1090592585",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-azul-d2-b4cc0e9e5acd53552217606529994875-1024-1024-28e185fc6644faef3717690243822975-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1090592585.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 33334
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1090592583",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-azul-d3-622e049093b034ab1817606530406634-1024-1024-359868f6183e0827fd17690243822582-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1090592583.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 30250
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1241014901",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-vino-negro-71a83234eec78bd11d17606393804667-1024-1024-50e18f70072a036cc317852468294097-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1241014901.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 71348
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1241014903",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-vino-negro-d2-46948411301413706f17606393930869-1024-1024-a415005fb81e02779b17852468294622-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1241014903.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 34734
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1241014904",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-vino-negro-d3-250b3fd50d206a57a017606393890962-1024-1024-11f9fb2655b2d444bd17852468294682-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1241014904.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 45798
+    },
+    {
+      "productId": "rinat-319918944",
+      "imageId": "1241014907",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-x-pro-blanco-vino-negro-d1-882625544c9498d91717606393858933-1024-1024-e46af978cd4cb2644517852468295812-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-319918944/1241014907.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 54762
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1020675948",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/71ro2k5t1fl-66cfa9bc12cb577d4217617719472664-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1020675948.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 97576
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1020675947",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/71jmgfrmcul-_ac_sx679_-b8e007a9273fc320c417617719470745-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1020675947.webp",
+      "width": 679,
+      "height": 781,
+      "bytes": 74632
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1020675946",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/71fasjcbjfl-_ac_sx679_-c2da8563ae8d961d9817617719470829-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1020675946.webp",
+      "width": 679,
+      "height": 754,
+      "bytes": 68184
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1142883127",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fenix-afc66663120d562ceb17737523748300-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1142883127.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 81508
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1142883155",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fenix-3-b030e84828ec68c78217737523758647-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1142883155.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 167094
+    },
+    {
+      "productId": "rinat-302733975",
+      "imageId": "1142883128",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/fenix-2-1bdb56de250cec2d2217737523747897-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-302733975/1142883128.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 40574
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1278181843",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-pro-blanco-1-b33dd66cac96e9b37617794785630794-1024-1024-629d3b8627479896f717900842810685-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1278181843.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 30262
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1278182893",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-pro-blanco-d1-1-b28eeb2ebe14b5b44617794785628271-1024-1024-0fe5189d143f16b6a417900843481246-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1278182893.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 27060
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1278182885",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-pro-blanco-d2-1-c0518266f7139e7d2717794785632893-1024-1024-727b808b1b28f4265217900843477905-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1278182885.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 17360
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1112417533",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-eed1a8fc3cab06b37a17709010045788-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1112417533.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 42644
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1112417530",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-3-d71acdb77b941bd5ec17709010045726-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1112417530.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 36758
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1112417528",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-2-64b38e5e34af932bfd17709010045317-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1112417528.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 27026
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1265176430",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santo-f47d36b35cede03e6317884470213007-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1265176430.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 27454
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1278186018",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-pro-negro-d1-48f75ae260ac3f14bb17794792427683-1024-1024-df686f3ea0e1f46f0c17900845357895-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1278186018.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 39804
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1278186019",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-pro-negro-d2-975c4bf7de038f29ba17794792431858-1024-1024-8a4323e5443d11b62817900845358220-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1278186019.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 38490
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1018727213",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santo-ecd7c951e5a3e725a217616554531049-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1018727213.webp",
+      "width": 550,
+      "height": 550,
+      "bytes": 39638
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1018724897",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-negro-3-1151501d2e41b5c94917616552261091-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1018724897.webp",
+      "width": 640,
+      "height": 721,
+      "bytes": 26344
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1018724890",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/santoloco-negro-2-a23bd2a7aee607c73b17616552258976-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1018724890.webp",
+      "width": 640,
+      "height": 721,
+      "bytes": 25034
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1217229898",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/d_q_np_993534-mla94228170339_102025-o-1295cc98a0ffdab28f17817906226476-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1217229898.webp",
+      "width": 500,
+      "height": 500,
+      "bytes": 17262
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1217231858",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/guantes_rinat_santoloco_pro_blanco_palma_azul_3-4_unokeeper_2048x-16c366d5e178279a8d17817907335973-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1217231858.webp",
+      "width": 1024,
+      "height": 1154,
+      "bytes": 44980
+    },
+    {
+      "productId": "rinat-283168912",
+      "imageId": "1217231613",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/guantes_rinat_santoloco_pro_blanco_palma_azul_palma_unokeeper_2048x-f4b75dab54689faf1217817907176406-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-283168912/1217231613.webp",
+      "width": 1024,
+      "height": 1154,
+      "bytes": 53808
+    },
+    {
+      "productId": "rinat-281823923",
+      "imageId": "929471552",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/ktcvhawq-7da16185f3d5221f4117454374812934-1024-1024-6c99fedcc773061d8017525868379517-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281823923/929471552.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 168152
+    },
+    {
+      "productId": "rinat-281823923",
+      "imageId": "929471625",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/tx-2-f8911b903b80413bfe17525868430432-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281823923/929471625.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 138192
+    },
+    {
+      "productId": "rinat-281823923",
+      "imageId": "929471620",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/tx-47d926580037f3a54b17525868426835-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281823923/929471620.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 151752
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "934935450",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-3c255474cd432303f217531925113880-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/934935450.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 54606
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "929455311",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-ng-pro-spines-negro-verde-azul-rosa-675924c6f908b2501617443099676474-1024-1024-7c7a67922ebe64530c17525861151000-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/929455311.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 166628
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "929455595",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-pro-2-2888024465193330c317525861268332-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/929455595.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 180794
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "929455610",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-pro-ec8e7aa659e14bac4f17525861274571-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/929455610.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 186084
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "929455588",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-pro-3-0082fa9ad17ba7ea4417525861264711-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/929455588.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 123026
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "929455589",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-pro-4-c20a39b4c1eef78d4217525861265653-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/929455589.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 152390
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "935934945",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-2-8e61cfabacb752a2e617532806786485-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/935934945.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 148680
+    },
+    {
+      "productId": "rinat-281821095",
+      "imageId": "935934934",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-negro-ama-deec952b7d3b62a9e817532806781729-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281821095/935934934.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 145744
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "929418967",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/wxqo1sww-559a55c5e2048cdd2c17472387024885-1024-1024-c2a6d39c76c620a39717525846508347-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/929418967.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 147580
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "929444573",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-09c3dc284cd7c2323917525857378446-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/929444573.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 149088
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "929444557",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asimetrik-3-c817235353dad1480a17525857373974-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/929444557.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 146098
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "972936532",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-2226c9662df3d83fe417574258727382-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/972936532.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 67048
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "972936533",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/asi-2-6129da44a74aad033617574258728098-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/972936533.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 54458
+    },
+    {
+      "productId": "rinat-281815547",
+      "imageId": "972936531",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/i-3-292ddf32660997409417574258725916-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281815547/972936531.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 51512
+    },
+    {
+      "productId": "rinat-281812406",
+      "imageId": "929411657",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/dcus8neg-99b1919530d058e69e17497629349835-1024-1024-d59113c0b09331af1217525843405336-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281812406/929411657.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 166236
+    },
+    {
+      "productId": "rinat-281812406",
+      "imageId": "929445619",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/aries-prime-2-230e82478b4aa9363917525857700251-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281812406/929445619.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 141514
+    },
+    {
+      "productId": "rinat-281812406",
+      "imageId": "929445614",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/aries-prime-de05b9faad62858bfb17525857698795-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281812406/929445614.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 170108
+    },
+    {
+      "productId": "rinat-281812406",
+      "imageId": "929445605",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/aries-prime-3-962ad4eba14d20711117525857696854-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-281812406/929445605.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 72626
+    },
+    {
+      "productId": "rinat-272066019",
+      "imageId": "887361752",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/egotiko-vengador-pro-2-a8dc431da76fd61bb817479206921933-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-272066019/887361752.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 161118
+    },
+    {
+      "productId": "rinat-250460119",
+      "imageId": "1157400696",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/img-20260210-wa0072-5b8017aec77f6da1cc17750802185978-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250460119/1157400696.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 112328
+    },
+    {
+      "productId": "rinat-250460119",
+      "imageId": "879908241",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/kratos-super-soft-bb071e78aecf44027a17471441560763-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250460119/879908241.webp",
+      "width": 1024,
+      "height": 1076,
+      "bytes": 143618
+    },
+    {
+      "productId": "rinat-250460119",
+      "imageId": "930898885",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/guantes-de-portero-kratos-prime-blanco-golero-sport-0-min-f839aab8fed999f0a917527001323627-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250460119/930898885.webp",
+      "width": 1024,
+      "height": 1194,
+      "bytes": 117986
+    },
+    {
+      "productId": "rinat-250458535",
+      "imageId": "929429851",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/d_666000-mlm80860425123_112024-o-0eadc806d4dc9ca14617428538751300-1024-1024-9739bb664729b6493017525851175456-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250458535/929429851.webp",
+      "width": 461,
+      "height": 500,
+      "bytes": 38984
+    },
+    {
+      "productId": "rinat-250458535",
+      "imageId": "929443102",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-2-aa68039515e870316717525856891758-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250458535/929443102.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 117326
+    },
+    {
+      "productId": "rinat-250458535",
+      "imageId": "929443101",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-3-59975a7aafa4476e6c17525856892776-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250458535/929443101.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 71200
+    },
+    {
+      "productId": "rinat-250458535",
+      "imageId": "929443108",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-ded2ba9bbac59d68ec17525856894637-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250458535/929443108.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 84204
+    },
+    {
+      "productId": "rinat-250458535",
+      "imageId": "929443098",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-4-c8b2170bf19bb6d70c17525856891163-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250458535/929443098.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 58870
+    },
+    {
+      "productId": "rinat-250457059",
+      "imageId": "799503968",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/dominus-alpha-gris-db01a20db4c68bd01917368876708302-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250457059/799503968.webp",
+      "width": 900,
+      "height": 918,
+      "bytes": 55982
+    },
+    {
+      "productId": "rinat-250457059",
+      "imageId": "799503970",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/dominus-alpha-ama-c5e473fffb419d41f217368876708430-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250457059/799503970.webp",
+      "width": 900,
+      "height": 877,
+      "bytes": 45164
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "815054890",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/81m3fdutnxl-_ac_sl1500_-8d1d5b2e12b920200d17389807356908-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/815054890.webp",
+      "width": 1024,
+      "height": 1096,
+      "bytes": 169228
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "985743238",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtreme-6d27c6448d0e4258fe17587236517917-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/985743238.webp",
+      "width": 900,
+      "height": 942,
+      "bytes": 69102
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "815055072",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/81kfmb1z8l-_ac_sx679_-13c227327c384692db17389807906530-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/815055072.webp",
+      "width": 679,
+      "height": 627,
+      "bytes": 77454
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "879925276",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/81yfyvl97l-_ac_sx569_-9861c2cda139ef5a8317471452298982-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/879925276.webp",
+      "width": 569,
+      "height": 639,
+      "bytes": 111126
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "879925274",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/81qhg5mppal-_ac_sx569_-aa75c752e98ff376d817471452298334-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/879925274.webp",
+      "width": 569,
+      "height": 554,
+      "bytes": 85714
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "879925271",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/81mv9adt-kl-_ac_sx569_-b01b7ce74c708b905117471452297020-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/879925271.webp",
+      "width": 569,
+      "height": 590,
+      "bytes": 85894
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "799486588",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtreme-dominus-aqua-0b68cbc33aa83aa7fc17368867355758-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/799486588.webp",
+      "width": 457,
+      "height": 500,
+      "bytes": 23426
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "804193353",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/d_nq_np_709394-mlm80660867501_112024-o-422bcf9719b8ffb41e17375693904562-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/804193353.webp",
+      "width": 500,
+      "height": 398,
+      "bytes": 21654
+    },
+    {
+      "productId": "rinat-250454728",
+      "imageId": "1162247311",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/rinat-guantes-de-portero-xtreme-guard-dominius-pro-47c144322595bf0a0117756551997666-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-250454728/1162247311.webp",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 83430
+    },
+    {
+      "productId": "rinat-236166518",
+      "imageId": "740322121",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/legging-under-guard-ad-f3468cb29d160b1db117284826345250-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236166518/740322121.webp",
+      "width": 452,
+      "height": 584,
+      "bytes": 8512
+    },
+    {
+      "productId": "rinat-236166518",
+      "imageId": "740322125",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/legging-under-guard-ad-1-b90447eef6ab7c5d7e17284826344847-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236166518/740322125.webp",
+      "width": 452,
+      "height": 584,
+      "bytes": 8418
+    },
+    {
+      "productId": "rinat-236166518",
+      "imageId": "740322122",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/legging-under-guard-ad-2-ccd07af4432cc7a86217284826345125-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236166518/740322122.webp",
+      "width": 452,
+      "height": 584,
+      "bytes": 7784
+    },
+    {
+      "productId": "rinat-236163072",
+      "imageId": "740317744",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pants-4-98dc6eb091c222650317284823103402-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236163072/740317744.webp",
+      "width": 468,
+      "height": 1200,
+      "bytes": 30832
+    },
+    {
+      "productId": "rinat-236163072",
+      "imageId": "740317748",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pants-2-159fd5c5ad57c07ab817284823103380-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236163072/740317748.webp",
+      "width": 544,
+      "height": 1200,
+      "bytes": 38920
+    },
+    {
+      "productId": "rinat-236163072",
+      "imageId": "740317755",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pants-3-b426788cc3d7f48cfa17284823104070-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236163072/740317755.webp",
+      "width": 575,
+      "height": 1200,
+      "bytes": 35660
+    },
+    {
+      "productId": "rinat-236163072",
+      "imageId": "740317751",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/pants-166af18ef8c8df343d17284823104553-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-236163072/740317751.webp",
+      "width": 605,
+      "height": 1200,
+      "bytes": 40020
+    },
+    {
+      "productId": "rinat-223576602",
+      "imageId": "695211454",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/guantes-de-portero-rinat-nkam-pro-yellow-6c7fc77d98d7c09ced17037460826896-1024-1024-dffade6a460f8784f417225175236345-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-223576602/695211454.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 22528
+    },
+    {
+      "productId": "rinat-223576602",
+      "imageId": "695216904",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/4389941_1_1-c207326d94fe9d1c0617225180326146-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-223576602/695216904.webp",
+      "width": 978,
+      "height": 1000,
+      "bytes": 125030
+    },
+    {
+      "productId": "rinat-223576602",
+      "imageId": "695218508",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/1248695799_max-1edfd0d1605e4ed19817225182077499-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-223576602/695218508.webp",
+      "width": 1001,
+      "height": 1001,
+      "bytes": 148650
+    },
+    {
+      "productId": "rinat-223576602",
+      "imageId": "814939756",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/nkam-blanco-f5c80063ca662ada4217389644093162-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-223576602/814939756.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 28746
+    },
+    {
+      "productId": "rinat-223576602",
+      "imageId": "804194943",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/d_nq_np_2x_713799-mlc76645921410_062024-f-b541a37429be2a63db17375694918099-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-223576602/804194943.webp",
+      "width": 1024,
+      "height": 1100,
+      "bytes": 94992
+    },
+    {
+      "productId": "rinat-221310023",
+      "imageId": "687152100",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-gris-52d69ac34c5381752417212282220132-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-221310023/687152100.webp",
+      "width": 540,
+      "height": 540,
+      "bytes": 40346
+    },
+    {
+      "productId": "rinat-221310023",
+      "imageId": "687152131",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/xtr-rojo-daab4a3ca07f988d2617212282245607-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-221310023/687152131.webp",
+      "width": 736,
+      "height": 736,
+      "bytes": 48168
+    },
+    {
+      "productId": "rinat-221310023",
+      "imageId": "691832183",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/714-t84vhkl-_ac_sx569_-56575b5648cbfd293c17219452271363-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-221310023/691832183.webp",
+      "width": 569,
+      "height": 699,
+      "bytes": 76918
+    },
+    {
+      "productId": "rinat-218800698",
+      "imageId": "676951195",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/whatsapp-image-2024-06-28-at-12-02-01-c58a65a52334edf63617195871757738-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-218800698/676951195.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 55456
+    },
+    {
+      "productId": "rinat-218800698",
+      "imageId": "676951249",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/whatsapp-image-2024-06-28-at-12-02-01-1-b462837d0e0a52cdb117195871774704-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-218800698/676951249.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 31874
+    },
+    {
+      "productId": "rinat-218800698",
+      "imageId": "676951300",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/whatsapp-image-2024-06-28-at-12-02-01-2-8ab19d0887e8d8d64b17195871792569-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-218800698/676951300.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 90152
+    },
+    {
+      "productId": "rinat-109692093",
+      "imageId": "1186888527",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/5-42b10c36b9fc6ad36c17492242650759-480-0-9e45e2a7f0ba1d9d5a17780794035159-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-109692093/1186888527.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 12248
+    },
+    {
+      "productId": "rinat-109692093",
+      "imageId": "488679229",
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/001/406/887/products/tienda-nube11-fbaeb28183ea41626516867737624535-1024-1024.webp",
+      "localPath": "/sites/rinat/products/rinat-109692093/488679229.webp",
+      "width": 179,
+      "height": 700,
+      "bytes": 32382
+    }
+  ]
+}
