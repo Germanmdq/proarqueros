@@ -1,0 +1,24 @@
+.catalog{width:100%;min-width:0}
+.controls{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-bottom:28px}
+.controls label{display:flex;flex-direction:column;gap:8px;font-size:11px;font-weight:700}
+.controls input,.controls select{width:100%;min-width:0;height:42px;padding:0 12px;border:1px solid #dce2ea;border-radius:4px;background:transparent;color:var(--ink);font:inherit;font-size:13px}
+.controls input:focus-visible,.controls select:focus-visible,.empty button:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+.catalog :global(.catalog-filter){width:100%;max-width:none;margin-bottom:16px}
+.pricing{margin:0 0 34px;color:#58594f;font-size:12px;line-height:1.5}
+.layout{display:grid;grid-template-columns:180px minmax(0,1fr);gap:28px}
+.results{min-width:0}
+.sidebar{padding-top:16px}
+.sidebar h3{font-size:20px;font-weight:700;margin:0 0 30px}
+.sidebar h4{font-size:13px;margin:0 0 14px}
+.sidebar>button{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;border:0;border-bottom:1px solid #edf0f4;background:transparent;color:#536176;text-align:left;padding:12px 0;font-size:12px}
+.sidebar>button[aria-pressed="true"]{color:var(--blue);font-weight:750}
+.sidebar button span{background:var(--blue-soft);color:var(--blue);padding:3px 6px;font-size:10px;border-radius:4px}
+.sidebar>.reset{color:var(--blue);text-decoration:underline;margin-top:20px;border:0;font-size:11px}
+.sidebar p{font-size:12px;line-height:1.6;color:#748092;margin-top:28px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 18px;align-items:start}
+.empty{padding:40px;text-align:center;border:1px solid #b9b9ad;border-radius:24px}
+.empty button{border:0;border-radius:13px;background:var(--ink);color:var(--paper);padding:12px 18px}
+.notice{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:10;width:max-content;max-width:calc(100% - 32px);padding:14px 18px;border:0;border-radius:8px;background:var(--blue);color:#fff;box-shadow:0 8px 30px #0003;font-size:12px;font-weight:700;text-align:left}
+@media(max-width:1200px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.layout{grid-template-columns:150px minmax(0,1fr);gap:20px}}
+@media(max-width:700px){.controls{grid-template-columns:1fr 1fr;gap:12px}.controls label:first-child{grid-column:auto}.layout{display:block}.sidebar{display:none}.grid{grid-template-columns:minmax(0,1fr);gap:26px}.pricing{font-size:11px}}

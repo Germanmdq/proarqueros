@@ -1,31 +1,47 @@
 "use client";
-import { ArrowDownRight, Menu, ShoppingBag } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 import { useState } from "react";
-import { LucianCatalogFilters } from "@/components/LucianCatalogFilters";
-import { LucianProductCard } from "@/components/LucianProductCard";
+import Image from "next/image";
+import { ProductCatalog } from "@/components/ProductCatalog";
 import { LucianCartDrawer } from "@/components/LucianCartDrawer";
 import { LucianHeroAction } from "@/components/LucianHeroAction";
+import { LucianSiteMenu } from "@/components/LucianSiteMenu";
+import { LucianCardStack } from "@/components/LucianCardStack";
 
-const products = [
-  { name: "ZERO CONTACT", type: "Guante profesional", category: "Guantes", price: "$ 119.900", tone: "#c6ff38", detail: "Palma contact / corte negativo" },
-  { name: "PULSE HYBRID", type: "Guante match", category: "Guantes", price: "$ 89.900", tone: "#ff6b35", detail: "Grip híbrido / cierre elástico" },
-  { name: "FORTRESS BASE", type: "Capa térmica", category: "Indumentaria", price: "$ 54.900", tone: "#d7d3c9", detail: "Segunda piel / ajuste compresivo" },
-];
+import { products, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
+import catalogStyles from "@/components/product-catalog.module.css";
 
 export default function Home() {
   const [cartOpen, setCartOpen] = useState(false);
-  const [added, setAdded] = useState<(typeof products)[number] | null>(null);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [filter, setFilter] = useState("Todo");
-  const addToCart = (product: (typeof products)[number]) => { setAdded(product); setCartOpen(true); };
-  const visibleProducts = filter === "Todo" ? products : products.filter((product) => product.category === filter);
-  return <main>
-    <header className="nav"><a className="brand" href="#inicio">ÚLTIMO <span>BASTIÓN</span></a><nav className={menuOpen ? "nav-links open" : "nav-links"}><a href="#coleccion" onClick={() => setMenuOpen(false)}>Colección</a><a href="#tecnologia" onClick={() => setMenuOpen(false)}>Tecnología</a><a href="#club" onClick={() => setMenuOpen(false)}>Club</a></nav><button className="bag" aria-label="Abrir carrito" onClick={() => setCartOpen(true)}><ShoppingBag size={18} /><span>{added ? "1" : "0"}</span></button><button className="menu" aria-label="Abrir menú" onClick={() => setMenuOpen(!menuOpen)}><Menu size={24} /></button></header>
-    <section id="inicio" className="hero"><div className="hero-image" /><div className="hero-grain" /><div className="hero-copy"><p className="eyebrow reveal">01 — EQUIPO PARA LOS QUE DECIDEN</p><h1 className="reveal delay-1">NADIE<br /><i>CUENTA</i><br />LOS ATAJADOS.</h1><p className="hero-description reveal delay-2">Se recuerdan las que parecían imposibles. Diseñamos guantes e indumentaria para ese instante.</p><LucianHeroAction /></div><div className="hero-foot"><span>BUENOS AIRES · ARG</span><span>SCROLL PARA ENTRAR <b>↓</b></span></div></section>
-    <section id="coleccion" className="collection section"><div className="section-top"><p className="eyebrow dark-text">02 — SELECCIÓN 2026</p><h2>HECHO PARA<br />EL ÁREA.</h2><p className="section-intro">Diseño sin exceso. Materiales que responden cuando el partido se rompe.</p></div><LucianCatalogFilters onChange={setFilter} /><div className="product-grid lucian-grid">{visibleProducts.map((product) => <LucianProductCard product={product} key={product.name} onAdd={addToCart} />)}</div></section>
-    <section id="tecnologia" className="technology"><div className="tech-head"><p className="eyebrow">03 — CONSTRUIDO PARA RESPONDER</p><h2>EL GRIP NO<br />NEGOCIA.</h2></div><div className="tech-list"><div><span>01</span><h3>CONTACT<br />LATEX</h3><p>Espuma de alto agarre creada para condiciones húmedas y secas.</p></div><div><span>02</span><h3>SECOND<br />SKIN</h3><p>Corte negativo que acompaña la mano, sin volumen extra.</p></div><div><span>03</span><h3>LOCK<br />SYSTEM</h3><p>Muñequera envolvente para que el guante sea una extensión tuya.</p></div></div></section>
-    <section id="club" className="club section"><div className="club-card"><p className="eyebrow dark-text">ÚLTIMO BASTIÓN / CLUB</p><h2>NO ES UN<br />PUESTO.<br /><i>ES UNA FORMA.</i></h2><p>Acceso anticipado a lanzamientos, guía de cuidado y conversaciones que sólo entienden los que se paran bajo los tres palos.</p><a className="button button-dark" href="mailto:hola@ultimobastion.ar">Sumarme al club <ArrowDownRight size={18} /></a></div></section>
-    <footer><a className="brand" href="#inicio">ÚLTIMO <span>BASTIÓN</span></a><p>Equipo para quienes sostienen el resultado.</p><p>© 2026 · ARGENTINA</p></footer>
-    <LucianCartDrawer item={added} open={cartOpen} onClose={() => setCartOpen(false)} />
-  </main>;
+  const [items, setItems] = useState<CartItem[]>([]);
+  const [notice, setNotice] = useState("");
+  const count = items.reduce((sum, item) => sum + item.quantity, 0);
+  function addToCart(product: Product, variant: ProductVariant) {
+    setItems((current) => {
+      const total = current.filter((item) => item.productId === product.id).reduce((sum, item) => sum + item.quantity, 0);
+      if (total >= product.stock) return current;
+      const existing = current.find((item) => item.variantId === variant.id);
+      return existing ? current.map((item) => item.variantId === variant.id ? { ...item, quantity: item.quantity + 1 } : item)
+        : [...current, { productId: product.id, variantId: variant.id, quantity: 1 }];
+    });
+    setNotice(`${product.brand} ${product.name}, variante ${variant.label}, agregado al carrito.`);
+  }
+  function changeQuantity(target: CartItem, quantity: number) {
+    setItems((current) => {
+      if (quantity <= 0) return current.filter((item) => item.variantId !== target.variantId);
+      const product = products.find((product) => product.id === target.productId);
+      if (!product) return current;
+      const others = current.filter((item) => item.productId === target.productId && item.variantId !== target.variantId).reduce((sum, item) => sum + item.quantity, 0);
+      return current.map((item) => item.variantId === target.variantId ? { ...item, quantity: Math.min(quantity, product.stock - others) } : item);
+    });
+  }
+  return <LucianSiteMenu><main>
+    <header className="nav"><a className="brand" href="#inicio" aria-label="Proarquero, inicio"><Image className="site-logo" src="/images/proarquero-logo.png" alt="Proarquero" width={210} height={104} priority unoptimized /></a><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}><ShoppingBag size={20} /><span>{count}</span></button></header>
+    <section id="inicio" className="hero"><div className="hero-image" /><div className="hero-grain" /><div className="hero-copy"><p className="eyebrow reveal">PROARQUERO · EQUIPAMIENTO PARA ARQUEROS</p><h1 className="reveal delay-1">TODO PARA<br /><i>DEFENDER</i><br />EL ARCO.</h1><p className="hero-description reveal delay-2">Encontrá tus guantes, tu indumentaria y el equipo para entrar a la cancha.</p><LucianHeroAction /></div><div className="hero-foot"><span>BUENOS AIRES · ARG</span><span>DESCUBRÍ LA COLECCIÓN <b>↓</b></span></div></section>
+    <section id="coleccion" className="collection section"><div className="section-top"><p className="eyebrow dark-text">Inicio / Productos</p><h2>Equipamiento para arqueros</h2><p className="section-intro">Guantes, indumentaria, pelotas, accesorios y calzado. Elegí tu modelo y talle.</p></div><ProductCatalog items={items} onAdd={addToCart} /></section>
+    <LucianCardStack />
+    <footer><a className="brand" href="#inicio" aria-label="Proarquero, inicio"><Image className="site-logo" src="/images/proarquero-logo.png" alt="Proarquero" width={160} height={82} unoptimized /></a><p>Equipo para quienes defienden el arco.</p><p>© 2026 PROARQUERO · ARGENTINA</p></footer>
+    {notice ? <button className={catalogStyles.notice} type="button" onClick={() => setCartOpen(true)} aria-live="polite">{notice} Ver carrito ({count})</button> : null}
+    <LucianCartDrawer items={items} open={cartOpen} onClose={() => setCartOpen(false)} onQuantityChange={changeQuantity} />
+  </main></LucianSiteMenu>;
 }
