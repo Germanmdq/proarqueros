@@ -1,5 +1,4 @@
 import catalog from "@/data/products.json";
-import rinatCatalog from "@/data/rinat-products.json";
 
 export type ProductVariant = {
   id: string; label: string; color?: string | null; size?: string | null;
@@ -36,7 +35,7 @@ export type CartItem = {
   quantity: number;
 };
 
-export const products: Product[] = [...rinatCatalog, ...catalog].map((product) => {
+export const products: Product[] = catalog.map((product) => {
   // Legacy illustrative photos are gloves, never photos of other categories.
   if (product.isReferenceImage && product.category !== "Guantes") {
     return { ...product, image: null, isReferenceImage: false };
@@ -66,3 +65,4 @@ export const productStock = (product: Product) => product.variants.reduce((total
 export const formatPrice = (price: number) => new Intl.NumberFormat("es-AR", {
   style: "currency", currency: "ARS", maximumFractionDigits: 0,
 }).format(price);
+export const formatProductPrice = (price: number) => price > 0 ? formatPrice(price) : "Consultar precio";

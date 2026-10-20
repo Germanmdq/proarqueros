@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useEffect, useId, useRef, useState } from "react";
-import { formatPrice, variantPrice, variantStock, type Product, type ProductVariant } from "@/lib/catalog";
+import { formatPrice, formatProductPrice, variantPrice, variantStock, type Product, type ProductVariant } from "@/lib/catalog";
 import "./lucian-product-buy-card.css";
 
 type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string };
@@ -24,7 +24,7 @@ export function LucianProductBuyCard(props: Props) {
         const image = product.variants.find((variant) => variant.color === color)?.image ?? product.image;
         return <button type="button" key={color} aria-label={`Ver color ${color} de ${product.name}`} aria-pressed={(previewImage ?? product.image) === image} onClick={() => setPreviewImage(image ?? null)}>{color}</button>;
       })}</div> : null}
-      <div className="u221-if"><p className="u221-brand">{product.brand} · {product.audience}</p><h3>{product.name}</h3><div className="u221-pr"><b>{formatPrice(product.price)}</b><span>al contado</span></div><small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small></div>
+      <div className="u221-if"><p className="u221-brand">{product.brand} · {product.audience}</p><h3>{product.name}</h3><div className="u221-pr"><b>{formatProductPrice(product.price)}</b><span>{product.price > 0 ? "al contado" : ""}</span></div><small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small></div>
       {product.price3Installments ? <div className="u221-finance">3 cuotas de <b>{formatPrice(product.price3Installments / 3)}</b></div> : null}
       <button type="button" className="u221-mb" onClick={() => setExpanded(true)}>Ver producto y variantes</button>
     </article>
@@ -168,7 +168,7 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
         <div className="u221-if">
           <p className="u221-brand">{product.brand} · {product.category} · {product.audience}</p>
           <h3 id={titleId}>{product.name}</h3>
-          <div className="u221-pr"><b>{formatPrice(price)}</b><span>al contado</span></div>
+          <div className="u221-pr"><b>{formatProductPrice(price)}</b><span>{price > 0 ? "al contado" : ""}</span></div>
           <small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small>
         </div>
         {product.colors?.length ? <div className="u221-color-picker"><h4>Color: {color}</h4><ColorChoices product={product} color={color} onSelect={selectColor} /></div> : null}
@@ -176,7 +176,7 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
         <div className="u221-sx"><h4>Detalles</h4><p>{product.description}</p><p>{product.variantNote}</p><p>Color: {color || product.color || "a confirmar"}.</p></div>
         <div className="u221-sx"><h4>Variantes</h4><p>{color ? `Talles de ${color}` : product.variantLabel}: {variants.map((variant) => variant.size ?? variant.label).join(" · ")}</p><p>{product.sourceUrl ? "Combinaciones originales del catálogo Rinat. Consultá disponibilidad antes de confirmar tu pedido." : "Los talles de referencia se confirman al consultar."}</p></div>
         <div className="u221-sx"><h4>Formas de pago</h4>
-          <div className="u221-rv">Contado <b>{formatPrice(product.price)}</b></div>
+          <div className="u221-rv">Contado <b>{formatProductPrice(product.price)}</b></div>
           {product.price3Installments ? <div className="u221-rv">3 cuotas de <b>{formatPrice(product.price3Installments / 3)}</b><small>Total {formatPrice(product.price3Installments)}</small></div> : null}
           {product.price6Installments ? <div className="u221-rv">6 cuotas de <b>{formatPrice(product.price6Installments / 6)}</b><small>Total {formatPrice(product.price6Installments)}</small></div> : null}
         </div>
@@ -185,7 +185,7 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
       <div className="u221-br" inert={!gone && !sheet}>
         <div className="u221-rw" inert={sheet} aria-hidden={sheet}>
           <span className="u221-th" aria-hidden="true">{product.brand.slice(0, 2)}</span>
-          <div><b>{formatPrice(price)}</b><small>Al contado</small></div>
+          <div><b>{formatProductPrice(price)}</b><small>{price > 0 ? "Al contado" : "Precio a confirmar"}</small></div>
           <button ref={barButton} type="button" className="u221-by" aria-expanded={sheet} aria-controls={sheetId} onClick={(event) => openSheet(event.currentTarget)}>Elegir</button>
         </div>
         <div ref={options} id={sheetId} className="u221-op" role="dialog" aria-labelledby={optionsTitleId} aria-hidden={!sheet} inert={!sheet}>

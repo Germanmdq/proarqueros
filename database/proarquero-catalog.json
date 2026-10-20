@@ -1,0 +1,8734 @@
+[
+  {
+    "name": "Zulu Iv",
+    "slug": "vgfc-zulu-iv",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 135000,
+    "price_3_installments_ars": 162000,
+    "price_6_installments_ars": 175500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Axum",
+    "slug": "vgfc-axum",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 64000,
+    "price_3_installments_ars": 76800,
+    "price_6_installments_ars": 83200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Basel",
+    "slug": "vgfc-basel",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 73000,
+    "price_3_installments_ars": 87600,
+    "price_6_installments_ars": 94900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Imperio",
+    "slug": "vgfc-imperio",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 73000,
+    "price_3_installments_ars": 87600,
+    "price_6_installments_ars": 94900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Rio",
+    "slug": "vgfc-rio",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Moldes",
+    "slug": "vgfc-moldes",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 3
+      },
+      {
+        "size": "9",
+        "stock": 4
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Spider",
+    "slug": "vgfc-spider",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Axum Legend",
+    "slug": "vgfc-axum-legend",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 135000,
+    "price_3_installments_ars": 162000,
+    "price_6_installments_ars": 175500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 2
+      },
+      {
+        "size": "6",
+        "stock": 5
+      },
+      {
+        "size": "5",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Zulu",
+    "slug": "vgfc-zulu",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 64000,
+    "price_3_installments_ars": 76800,
+    "price_6_installments_ars": 83200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "2",
+        "stock": 10
+      },
+      {
+        "size": "1",
+        "stock": 9
+      },
+      {
+        "size": "2",
+        "stock": 8
+      },
+      {
+        "size": "7",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "5",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "slug": "vgfc-argentina",
+    "brand": "Vgfc",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 70000,
+    "price_3_installments_ars": 84000,
+    "price_6_installments_ars": 91000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 2
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bravo",
+    "slug": "lanusca-bravo",
+    "brand": "Lanusca",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 105000,
+    "price_3_installments_ars": 126000,
+    "price_6_installments_ars": 136500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 4
+      },
+      {
+        "size": "5",
+        "stock": 5
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fil Control",
+    "slug": "lanusca-fil-control",
+    "brand": "Lanusca",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 105000,
+    "price_3_installments_ars": 126000,
+    "price_6_installments_ars": 136500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Lanusca Joven",
+    "slug": "lanusca-lanusca-joven",
+    "brand": "Lanusca",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "3",
+        "stock": 7
+      },
+      {
+        "size": "5",
+        "stock": 6
+      },
+      {
+        "size": "5",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Guardiano",
+    "slug": "munich-guardiano",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 40000,
+    "price_3_installments_ars": 48000,
+    "price_6_installments_ars": 52000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Supreme",
+    "slug": "munich-supreme",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Durban",
+    "slug": "munich-durban",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 5
+      },
+      {
+        "size": "6",
+        "stock": 4
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Striker",
+    "slug": "munich-striker",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Busan",
+    "slug": "munich-busan",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Gotik",
+    "slug": "munich-gotik",
+    "brand": "Munich",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 110000,
+    "price_3_installments_ars": 132000,
+    "price_6_installments_ars": 143000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica Con Proteccion",
+    "slug": "vgfc-termica-con-proteccion",
+    "brand": "Vgfc",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 53000,
+    "price_3_installments_ars": 63600,
+    "price_6_installments_ars": 68900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 3
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica Sin Proteccion",
+    "slug": "vgfc-termica-sin-proteccion",
+    "brand": "Vgfc",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias",
+    "slug": "vgfc-medias",
+    "brand": "Vgfc",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Eskualo",
+    "slug": "ho-soccer-eskualo",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Aerial Orange",
+    "slug": "ho-soccer-aerial-orange",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 70000,
+    "price_3_installments_ars": 84000,
+    "price_6_installments_ars": 91000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 4
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Koncept Aerial Red",
+    "slug": "ho-soccer-koncept-aerial-red",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 70000,
+    "price_3_installments_ars": 84000,
+    "price_6_installments_ars": 91000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "7",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "5",
+        "stock": 5
+      },
+      {
+        "size": "8",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Intial Porsuit",
+    "slug": "ho-soccer-intial-porsuit",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Squarda Turf",
+    "slug": "ho-soccer-squarda-turf",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Game Blue",
+    "slug": "ho-soccer-game-blue",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 35000,
+    "price_3_installments_ars": 42000,
+    "price_6_installments_ars": 45500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Trainer Porsuit",
+    "slug": "ho-soccer-trainer-porsuit",
+    "brand": "Ho Soccer",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 40000,
+    "price_3_installments_ars": 48000,
+    "price_6_installments_ars": 52000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 1
+      },
+      {
+        "size": "6",
+        "stock": 2
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fury Linea Academy",
+    "slug": "glo-wpro-fury-linea-academy",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 95000,
+    "price_3_installments_ars": 114000,
+    "price_6_installments_ars": 123500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "King",
+    "slug": "glo-wpro-king",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 125000,
+    "price_3_installments_ars": 150000,
+    "price_6_installments_ars": 162500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fury Forcegrip Total Black",
+    "slug": "glo-wpro-fury-forcegrip-total-black",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 95000,
+    "price_3_installments_ars": 114000,
+    "price_6_installments_ars": 123500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fury Hergogrip \"Sl\" Total Black",
+    "slug": "glo-wpro-fury-hergogrip-sl-total-black",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 119000,
+    "price_3_installments_ars": 142800,
+    "price_6_installments_ars": 154700,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fury Hergogrip-\"Dl2\" Total Black",
+    "slug": "glo-wpro-fury-hergogrip-dl2-total-black",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 135000,
+    "price_3_installments_ars": 162000,
+    "price_6_installments_ars": 175500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Antideslizante",
+    "slug": "glow-pro-medias-antideslizante",
+    "brand": "Glow-Pro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 14000,
+    "price_3_installments_ars": 16800,
+    "price_6_installments_ars": 18200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "7",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "2",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Conjunto",
+    "slug": "glow-pro-conjunto",
+    "brand": "Glow-Pro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica",
+    "slug": "glow-pro-termica",
+    "brand": "Glow-Pro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 32000,
+    "price_3_installments_ars": 38400,
+    "price_6_installments_ars": 41600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Avalon St 26",
+    "slug": "glo-wpro-avalon-st-26",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Avalon St 25",
+    "slug": "glo-wpro-avalon-st-25",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fury Total Black",
+    "slug": "glo-wpro-fury-total-black",
+    "brand": "Glo-Wpro",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica Sin Proteccion",
+    "slug": "idumentari-glow-pro-termica-sin-proteccion",
+    "brand": "Idumentari Glow Pro",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 32000,
+    "price_3_installments_ars": 38400,
+    "price_6_installments_ars": 41600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Guardian Soff 299",
+    "slug": "prostar-guardian-soff-299",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 27000,
+    "price_3_installments_ars": 32400,
+    "price_6_installments_ars": 35100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Neosense 3Mm 236",
+    "slug": "prostar-neosense-3mm-236",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Neosense 4Mm Orange 237",
+    "slug": "prostar-neosense-4mm-orange-237",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Neosense 4Mm Yellow 231",
+    "slug": "prostar-neosense-4mm-yellow-231",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Ultra Black 206 Y Fusion",
+    "slug": "prostar-ultra-black-206-y-fusion",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Geogrip Hardground",
+    "slug": "prostar-geogrip-hardground",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 31000,
+    "price_3_installments_ars": 37200,
+    "price_6_installments_ars": 40300,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Guardian Hardground",
+    "slug": "prostar-guardian-hardground",
+    "brand": "Prostar",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 27000,
+    "price_3_installments_ars": 32400,
+    "price_6_installments_ars": 35100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 1
+      },
+      {
+        "size": "6",
+        "stock": 1
+      },
+      {
+        "size": "5",
+        "stock": 1
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Flexipant 405",
+    "slug": "prostar-flexipant-405",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "6",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Full Protec",
+    "slug": "prostar-pantalon-full-protec",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Yasim 412",
+    "slug": "prostar-pantalon-yasim-412",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "1",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "1",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Gk Pant 404",
+    "slug": "prostar-pantalon-gk-pant-404",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 53000,
+    "price_3_installments_ars": 63600,
+    "price_6_installments_ars": 68900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantalon 3/4 409",
+    "slug": "prostar-pantalon-3-4-409",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 57000,
+    "price_3_installments_ars": 68400,
+    "price_6_installments_ars": 74100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 1
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 3
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bermuda Gk Tech 402 / 468",
+    "slug": "prostar-bermuda-gk-tech-402-468",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 3
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza \"Larga\" 968",
+    "slug": "prostar-calza-larga-968",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 56000,
+    "price_3_installments_ars": 67200,
+    "price_6_installments_ars": 72800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 1
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 3
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Sanurai \"Larga\" 439",
+    "slug": "prostar-calza-sanurai-larga-439",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 98000,
+    "price_3_installments_ars": 117600,
+    "price_6_installments_ars": 127400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 3
+      },
+      {
+        "size": "9",
+        "stock": 3
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza 3/4 Foam Protect 428",
+    "slug": "prostar-calza-3-4-foam-protect-428",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 64000,
+    "price_3_installments_ars": 76800,
+    "price_6_installments_ars": 83200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 2
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calzacorta Foam Protect 427",
+    "slug": "prostar-calzacorta-foam-protect-427",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 57000,
+    "price_3_installments_ars": 68400,
+    "price_6_installments_ars": 74100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 2
+      },
+      {
+        "size": "9",
+        "stock": 4
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Samurai \"Corta\" 437",
+    "slug": "prostar-calza-samurai-corta-437",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 67000,
+    "price_3_installments_ars": 80400,
+    "price_6_installments_ars": 87100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 1
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 3
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Basic Tech 18 \"Corta\" 967",
+    "slug": "prostar-calza-basic-tech-18-corta-967",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 38000,
+    "price_3_installments_ars": 45600,
+    "price_6_installments_ars": 49400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 2
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Lycra Foam Protec 426",
+    "slug": "prostar-lycra-foam-protec-426",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 1
+      },
+      {
+        "size": "6",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Remera Lycra Samurai 429",
+    "slug": "prostar-remera-lycra-samurai-429",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 71000,
+    "price_3_installments_ars": 85200,
+    "price_6_installments_ars": 92300,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 3
+      },
+      {
+        "size": "6",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Remera Basic Tech 966",
+    "slug": "prostar-remera-basic-tech-966",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 58000,
+    "price_3_installments_ars": 69600,
+    "price_6_installments_ars": 75400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 8
+      },
+      {
+        "size": "6",
+        "stock": 8
+      },
+      {
+        "size": "1",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Mangas 506",
+    "slug": "prostar-mangas-506",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 25000,
+    "price_3_installments_ars": 30000,
+    "price_6_installments_ars": 32500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Buzo Gfeogrp 3/4",
+    "slug": "prostar-buzo-gfeogrp-3-4",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 30500,
+    "price_3_installments_ars": 36600,
+    "price_6_installments_ars": 39650,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 1
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Flexipant Jr 405",
+    "slug": "prostar-pantalon-flexipant-jr-405",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 54000,
+    "price_3_installments_ars": 64800,
+    "price_6_installments_ars": 70200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bermuda Basic Jr 411",
+    "slug": "prostar-bermuda-basic-jr-411",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 30000,
+    "price_3_installments_ars": 36000,
+    "price_6_installments_ars": 39000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "1",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "1",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Basic Tech 963",
+    "slug": "prostar-calza-corta-basic-tech-963",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 33000,
+    "price_3_installments_ars": 39600,
+    "price_6_installments_ars": 42900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza 3/4 Comresion Jr 995",
+    "slug": "prostar-calza-3-4-comresion-jr-995",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "1",
+        "stock": 7
+      },
+      {
+        "size": "6",
+        "stock": 6
+      },
+      {
+        "size": "1",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Calza Larga Basic Tech Jr 964",
+    "slug": "prostar-calza-larga-basic-tech-jr-964",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Compresion 994",
+    "slug": "prostar-calza-corta-compresion-994",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 53000,
+    "price_3_installments_ars": 63600,
+    "price_6_installments_ars": 68900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica Comp C/Protec Jr 993",
+    "slug": "prostar-termica-comp-c-protec-jr-993",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Remera Basic Tech 962",
+    "slug": "prostar-remera-basic-tech-962",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Buzo Zenga Jr",
+    "slug": "prostar-buzo-zenga-jr",
+    "brand": "Prostar",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 30000,
+    "price_3_installments_ars": 36000,
+    "price_6_installments_ars": 39000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Ally Adulto Flat",
+    "slug": "ally-sport-ally-adulto-flat",
+    "brand": "Ally Sport",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 25000,
+    "price_3_installments_ars": 30000,
+    "price_6_installments_ars": 32500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 2
+      },
+      {
+        "size": "2",
+        "stock": 1
+      },
+      {
+        "size": "5",
+        "stock": 2
+      },
+      {
+        "size": "4",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Royal 3.0",
+    "slug": "drb-royal-3-0",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 65000,
+    "price_3_installments_ars": 78000,
+    "price_6_installments_ars": 84500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 11
+      },
+      {
+        "size": "10",
+        "stock": 10
+      },
+      {
+        "size": "9",
+        "stock": 9
+      },
+      {
+        "size": "8",
+        "stock": 8
+      },
+      {
+        "size": "1",
+        "stock": 7
+      },
+      {
+        "size": "2",
+        "stock": 6
+      },
+      {
+        "size": "5",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Feline 20",
+    "slug": "drb-feline-20",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 104000,
+    "price_3_installments_ars": 124800,
+    "price_6_installments_ars": 135200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 4
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Leader 23",
+    "slug": "drb-leader-23",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 86000,
+    "price_3_installments_ars": 103200,
+    "price_6_installments_ars": 111800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "9",
+        "stock": 4
+      },
+      {
+        "size": "8",
+        "stock": 4
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Prime 22",
+    "slug": "drb-prime-22",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 25000,
+    "price_3_installments_ars": 30000,
+    "price_6_installments_ars": 32500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Master",
+    "slug": "drb-master",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 38000,
+    "price_3_installments_ars": 45600,
+    "price_6_installments_ars": 49400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fiber",
+    "slug": "drb-fiber",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 74000,
+    "price_3_installments_ars": 88800,
+    "price_6_installments_ars": 96200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "10",
+        "stock": 2
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Royal",
+    "slug": "drb-royal",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 52000,
+    "price_3_installments_ars": 62400,
+    "price_6_installments_ars": 67600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 1
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Feline Jr",
+    "slug": "drb-feline-jr",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 86000,
+    "price_3_installments_ars": 103200,
+    "price_6_installments_ars": 111800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "9",
+        "stock": 0
+      },
+      {
+        "size": "8",
+        "stock": 0
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Rocket",
+    "slug": "drb-rocket",
+    "brand": "Drb",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 15000,
+    "price_3_installments_ars": 18000,
+    "price_6_installments_ars": 19500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 4
+      },
+      {
+        "size": "10",
+        "stock": 1
+      },
+      {
+        "size": "9",
+        "stock": 1
+      },
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "1",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Kick",
+    "slug": "reebok-kick",
+    "brand": "Reebok",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Royal",
+    "slug": "reebok-royal",
+    "brand": "Reebok",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 4
+      },
+      {
+        "size": "3",
+        "stock": 1
+      },
+      {
+        "size": "3",
+        "stock": 2
+      },
+      {
+        "size": "3",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Drb Cup",
+    "slug": "canilleras-canilleras-drb-cup",
+    "brand": "Canilleras",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 1
+      },
+      {
+        "size": "3",
+        "stock": 1
+      },
+      {
+        "size": "3",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Ekip",
+    "slug": "canilleras-canilleras-ekip",
+    "brand": "Canilleras",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canillera Ekip Junior",
+    "slug": "canilleras-canillera-ekip-junior",
+    "brand": "Canilleras",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 5
+      },
+      {
+        "size": "3",
+        "stock": 5
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Toro Y Pampa",
+    "slug": "canilleras-canilleras-toro-y-pampa",
+    "brand": "Canilleras",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica",
+    "slug": "drb-termica",
+    "brand": "Drb",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 25000,
+    "price_3_installments_ars": 30000,
+    "price_6_installments_ars": 32500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Corto",
+    "slug": "drb-pantalon-corto",
+    "brand": "Drb",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 15000,
+    "price_3_installments_ars": 18000,
+    "price_6_installments_ars": 19500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "3",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Contac Silver Glueperint",
+    "slug": "reusch-contac-silver-glueperint",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 100000,
+    "price_3_installments_ars": 120000,
+    "price_6_installments_ars": 130000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Legacy Prime Arrow",
+    "slug": "reusch-legacy-prime-arrow",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 100000,
+    "price_3_installments_ars": 120000,
+    "price_6_installments_ars": 130000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pure Contac Prime Fusion",
+    "slug": "reusch-pure-contac-prime-fusion",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 132000,
+    "price_3_installments_ars": 158400,
+    "price_6_installments_ars": 171600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "3",
+        "stock": 4
+      },
+      {
+        "size": "4",
+        "stock": 2
+      },
+      {
+        "size": "2",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 3
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pure Contac  Prime Infinity",
+    "slug": "reusch-pure-contac-prime-infinity",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 116000,
+    "price_3_installments_ars": 139200,
+    "price_6_installments_ars": 150800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Infinity Evolucion Nc",
+    "slug": "reusch-attrakt-infinity-evolucion-nc",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 5
+      },
+      {
+        "size": "3",
+        "stock": 5
+      },
+      {
+        "size": "4",
+        "stock": 3
+      },
+      {
+        "size": "2",
+        "stock": 6
+      },
+      {
+        "size": "7",
+        "stock": 5
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Freegel Infinity",
+    "slug": "reusch-attrakt-freegel-infinity",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 125000,
+    "price_3_installments_ars": 150000,
+    "price_6_installments_ars": 162500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Infinity Finger Suport",
+    "slug": "reusch-attrakt-infinity-finger-suport",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 70000,
+    "price_3_installments_ars": 84000,
+    "price_6_installments_ars": 91000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "3",
+        "stock": 2
+      },
+      {
+        "size": "4",
+        "stock": 1
+      },
+      {
+        "size": "2",
+        "stock": 2
+      },
+      {
+        "size": "7",
+        "stock": 2
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrak Solid",
+    "slug": "reusch-attrak-solid",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 28000,
+    "price_3_installments_ars": 33600,
+    "price_6_installments_ars": 36400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Pro Fusion Advance",
+    "slug": "reusch-attrakt-pro-fusion-advance",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 3
+      },
+      {
+        "size": "3",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 3
+      },
+      {
+        "size": "2",
+        "stock": 3
+      },
+      {
+        "size": "7",
+        "stock": 2
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrak Pro Aqua Advance",
+    "slug": "reusch-attrak-pro-aqua-advance",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrak Pro Infinity",
+    "slug": "reusch-attrak-pro-infinity",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 5
+      },
+      {
+        "size": "3",
+        "stock": 4
+      },
+      {
+        "size": "4",
+        "stock": 3
+      },
+      {
+        "size": "2",
+        "stock": 4
+      },
+      {
+        "size": "7",
+        "stock": 5
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Supreme Infinity",
+    "slug": "reusch-attrakt-supreme-infinity",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 125000,
+    "price_3_installments_ars": 150000,
+    "price_6_installments_ars": 162500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrakt Fregel Prime Fusion White",
+    "slug": "reusch-attrakt-fregel-prime-fusion-white",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 145000,
+    "price_3_installments_ars": 174000,
+    "price_6_installments_ars": 188500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrack Speed Bump",
+    "slug": "reusch-attrack-speed-bump",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 145000,
+    "price_3_installments_ars": 174000,
+    "price_6_installments_ars": 188500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 4
+      },
+      {
+        "size": "3",
+        "stock": 3
+      },
+      {
+        "size": "4",
+        "stock": 3
+      },
+      {
+        "size": "2",
+        "stock": 3
+      },
+      {
+        "size": "7",
+        "stock": 2
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrack Gravity Infinity",
+    "slug": "reusch-attrack-gravity-infinity",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 125000,
+    "price_3_installments_ars": 150000,
+    "price_6_installments_ars": 162500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fastgrip Fusion",
+    "slug": "reusch-fastgrip-fusion",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 140000,
+    "price_3_installments_ars": 168000,
+    "price_6_installments_ars": 182000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrak Freegel Advance",
+    "slug": "reusch-attrak-freegel-advance",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 115000,
+    "price_3_installments_ars": 138000,
+    "price_6_installments_ars": 149500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fastgrip Prime Aqua",
+    "slug": "reusch-fastgrip-prime-aqua",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 140000,
+    "price_3_installments_ars": 168000,
+    "price_6_installments_ars": 182000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrack Solid Starter",
+    "slug": "reusch-attrack-solid-starter",
+    "brand": "Reusch",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 38000,
+    "price_3_installments_ars": 45600,
+    "price_6_installments_ars": 49400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Attrack Pro Fusion",
+    "slug": "reusch-attrack-pro-fusion",
+    "brand": "Reusch",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fastgrip Infinity",
+    "slug": "reusch-fastgrip-infinity",
+    "brand": "Reusch",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 85000,
+    "price_3_installments_ars": 102000,
+    "price_6_installments_ars": 110500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Termica",
+    "slug": "reusch-termica",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 28000,
+    "price_3_installments_ars": 33600,
+    "price_6_installments_ars": 36400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Parck Chupin",
+    "slug": "reusch-parck-chupin",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 35000,
+    "price_3_installments_ars": 42000,
+    "price_6_installments_ars": 45500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Princes Park",
+    "slug": "reusch-princes-park",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 35000,
+    "price_3_installments_ars": 42000,
+    "price_6_installments_ars": 45500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Larga",
+    "slug": "reusch-calza-larga",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 28000,
+    "price_3_installments_ars": 33600,
+    "price_6_installments_ars": 36400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Proteccio Larga",
+    "slug": "reusch-calza-proteccio-larga",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 40000,
+    "price_3_installments_ars": 48000,
+    "price_6_installments_ars": 52000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Buzo Unikom",
+    "slug": "reusch-buzo-unikom",
+    "brand": "Reusch",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 28000,
+    "price_3_installments_ars": 33600,
+    "price_6_installments_ars": 36400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pantera Competicion",
+    "slug": "solo-porteros-pantera-competicion",
+    "brand": "Solo Porteros",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 75000,
+    "price_3_installments_ars": 90000,
+    "price_6_installments_ars": 97500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Suprem",
+    "slug": "elite-suprem",
+    "brand": "Elite",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 145000,
+    "price_3_installments_ars": 174000,
+    "price_6_installments_ars": 188500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Powerline Absolutgrip",
+    "slug": "uhlsport-powerline-absolutgrip",
+    "brand": "Uhlsport",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 141000,
+    "price_3_installments_ars": 169200,
+    "price_6_installments_ars": 183300,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Powerline Soft",
+    "slug": "uhlsport-powerline-soft",
+    "brand": "Uhlsport",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 76000,
+    "price_3_installments_ars": 91200,
+    "price_6_installments_ars": 98800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Starter Resist",
+    "slug": "uhlsport-starter-resist",
+    "brand": "Uhlsport",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 45000,
+    "price_3_installments_ars": 54000,
+    "price_6_installments_ars": 58500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Powerline Starter Soft",
+    "slug": "uhlsport-powerline-starter-soft",
+    "brand": "Uhlsport",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": 45000,
+    "price_3_installments_ars": 54000,
+    "price_6_installments_ars": 58500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Scorpius Ugt",
+    "slug": "n1-scorpius-ugt",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 140000,
+    "price_3_installments_ars": 168000,
+    "price_6_installments_ars": 182000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Beta Black",
+    "slug": "n1-beta-black",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Horus",
+    "slug": "n1-horus",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 135000,
+    "price_3_installments_ars": 162000,
+    "price_6_installments_ars": 175500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Ares",
+    "slug": "n1-ares",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 140000,
+    "price_3_installments_ars": 168000,
+    "price_6_installments_ars": 182000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Zeus",
+    "slug": "n1-zeus",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 130000,
+    "price_3_installments_ars": 156000,
+    "price_6_installments_ars": 169000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Gea",
+    "slug": "n1-gea",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 130000,
+    "price_3_installments_ars": 156000,
+    "price_6_installments_ars": 169000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Linea Duratech",
+    "slug": "n1-linea-duratech",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 50000,
+    "price_3_installments_ars": 60000,
+    "price_6_installments_ars": 65000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calzas Largas Sin Proteccion",
+    "slug": "n1-calzas-largas-sin-proteccion",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 48000,
+    "price_3_installments_ars": 57600,
+    "price_6_installments_ars": 62400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Super Low Grip",
+    "slug": "n1-super-low-grip",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Duratech",
+    "slug": "n1-duratech",
+    "brand": "N1",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 47000,
+    "price_3_installments_ars": 56400,
+    "price_6_installments_ars": 61100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Shark",
+    "slug": "ch1-shark",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Rex",
+    "slug": "ch1-rex",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 90000,
+    "price_3_installments_ars": 108000,
+    "price_6_installments_ars": 117000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Cobra",
+    "slug": "ch1-cobra",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 60000,
+    "price_3_installments_ars": 72000,
+    "price_6_installments_ars": 78000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Fox",
+    "slug": "ch1-fox",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 40000,
+    "price_3_installments_ars": 48000,
+    "price_6_installments_ars": 52000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Eagle",
+    "slug": "ch1-eagle",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 115000,
+    "price_3_installments_ars": 138000,
+    "price_6_installments_ars": 149500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Hawk",
+    "slug": "ch1-hawk",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 110000,
+    "price_3_installments_ars": 132000,
+    "price_6_installments_ars": 143000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Harrier",
+    "slug": "ch1-harrier",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Sark",
+    "slug": "ch1-sark",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 80000,
+    "price_3_installments_ars": 96000,
+    "price_6_installments_ars": 104000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Cronos",
+    "slug": "ch1-cronos",
+    "brand": "Ch1",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 28000,
+    "price_3_installments_ars": 33600,
+    "price_6_installments_ars": 36400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Modelo Unico",
+    "slug": "fitipaldi-modelo-unico",
+    "brand": "Fitipaldi",
+    "category": "Guantes",
+    "audience": "Junior",
+    "price_cash_ars": 75000,
+    "price_3_installments_ars": 90000,
+    "price_6_installments_ars": 97500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Copa",
+    "slug": "adidas-copa",
+    "brand": "Adidas",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 110000,
+    "price_3_installments_ars": 132000,
+    "price_6_installments_ars": 143000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Predator",
+    "slug": "adidas-predator",
+    "brand": "Adidas",
+    "category": "Guantes",
+    "audience": "Adulto",
+    "price_cash_ars": 140000,
+    "price_3_installments_ars": 168000,
+    "price_6_installments_ars": 182000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Pegaso Numero 4 Roja",
+    "slug": "ch1-pegaso-numero-4-roja",
+    "brand": "Ch1",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 45000,
+    "price_3_installments_ars": 54000,
+    "price_6_installments_ars": 58500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Flash",
+    "slug": "munich-flash",
+    "brand": "Munich",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 30000,
+    "price_3_installments_ars": 36000,
+    "price_6_installments_ars": 39000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Cardif 3.0",
+    "slug": "munich-cardif-3-0",
+    "brand": "Munich",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 55000,
+    "price_3_installments_ars": 66000,
+    "price_6_installments_ars": 71500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Galaxy",
+    "slug": "munich-galaxy",
+    "brand": "Munich",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 45000,
+    "price_3_installments_ars": 54000,
+    "price_6_installments_ars": 58500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Verona",
+    "slug": "dreamgol-verona",
+    "brand": "Dreamgol",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 42000,
+    "price_3_installments_ars": 50400,
+    "price_6_installments_ars": 54600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Madrid",
+    "slug": "dreamgol-madrid",
+    "brand": "Dreamgol",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 42000,
+    "price_3_installments_ars": 50400,
+    "price_6_installments_ars": 54600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Africa",
+    "slug": "dreamgol-africa",
+    "brand": "Dreamgol",
+    "category": "Pelotas",
+    "audience": "Adulto",
+    "price_cash_ars": 37000,
+    "price_3_installments_ars": 44400,
+    "price_6_installments_ars": 48100,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Rodilleras Reusch",
+    "slug": "proarquero-rodilleras-reusch",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 32000,
+    "price_3_installments_ars": 38400,
+    "price_6_installments_ars": 41600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Fox",
+    "slug": "proarquero-canilleras-fox",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 20000,
+    "price_3_installments_ars": 24000,
+    "price_6_installments_ars": 26000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Sporting Good",
+    "slug": "proarquero-canilleras-sporting-good",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Cinta Coban",
+    "slug": "proarquero-cinta-coban",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 6500,
+    "price_3_installments_ars": 7800,
+    "price_6_installments_ars": 8450,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Inflador Munich",
+    "slug": "proarquero-inflador-munich",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 7500,
+    "price_3_installments_ars": 9000,
+    "price_6_installments_ars": 9750,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canilleras Toro Y Pampa",
+    "slug": "proarquero-canilleras-toro-y-pampa",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bolso 6/8",
+    "slug": "proarquero-bolso-6-8",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 31000,
+    "price_3_installments_ars": 37200,
+    "price_6_installments_ars": 40300,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bolso 10/12",
+    "slug": "proarquero-bolso-10-12",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 33000,
+    "price_3_installments_ars": 39600,
+    "price_6_installments_ars": 42900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Bolso Premium 6/8",
+    "slug": "proarquero-bolso-premium-6-8",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 53000,
+    "price_3_installments_ars": 63600,
+    "price_6_installments_ars": 68900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Canillerras Munich",
+    "slug": "proarquero-canillerras-munich",
+    "brand": "Proarquero",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 7500,
+    "price_3_installments_ars": 9000,
+    "price_6_installments_ars": 9750,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Jabon Liquido",
+    "slug": "mb1-jabon-liquido",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Adherente Sua",
+    "slug": "mb1-adherente-sua",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 13000,
+    "price_3_installments_ars": 15600,
+    "price_6_installments_ars": 16900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Hidratante",
+    "slug": "mb1-hidratante",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Latex Liquido Blanco",
+    "slug": "mb1-latex-liquido-blanco",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 14000,
+    "price_3_installments_ars": 16800,
+    "price_6_installments_ars": 18200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Adherente Maxx",
+    "slug": "mb1-adherente-maxx",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 13000,
+    "price_3_installments_ars": 15600,
+    "price_6_installments_ars": 16900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Neutralizador De Olores",
+    "slug": "mb1-neutralizador-de-olores",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Latex Liquido Negro",
+    "slug": "mb1-latex-liquido-negro",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 14000,
+    "price_3_installments_ars": 16800,
+    "price_6_installments_ars": 18200,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Crema Adherente",
+    "slug": "mb1-crema-adherente",
+    "brand": "Mb1",
+    "category": "Accesorios",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Short Nassau",
+    "slug": "proarquero-short-nassau",
+    "brand": "Proarquero",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 15000,
+    "price_3_installments_ars": 18000,
+    "price_6_installments_ars": 19500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Nassau",
+    "slug": "proarquero-calza-nassau",
+    "brand": "Proarquero",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 20000,
+    "price_3_installments_ars": 24000,
+    "price_6_installments_ars": 26000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Alfest",
+    "slug": "proarquero-calza-alfest",
+    "brand": "Proarquero",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 15000,
+    "price_3_installments_ars": 18000,
+    "price_6_installments_ars": 19500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Fox Clasicas",
+    "slug": "fox-medias-fox-clasicas",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 16000,
+    "price_3_installments_ars": 19200,
+    "price_6_installments_ars": 20800,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Sin Pie Clasicas",
+    "slug": "fox-medias-sin-pie-clasicas",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 12000,
+    "price_3_installments_ars": 14400,
+    "price_6_installments_ars": 15600,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Kick Off",
+    "slug": "fox-medias-kick-off",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 9000,
+    "price_3_installments_ars": 10800,
+    "price_6_installments_ars": 11700,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Sin Pie Kick Off",
+    "slug": "fox-medias-sin-pie-kick-off",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 8000,
+    "price_3_installments_ars": 9600,
+    "price_6_installments_ars": 10400,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias \"Vgfc\"",
+    "slug": "fox-medias-vgfc",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Prostar",
+    "slug": "fox-medias-prostar",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 10000,
+    "price_3_installments_ars": 12000,
+    "price_6_installments_ars": 13000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Medias Half Socks Anti Delizantes",
+    "slug": "fox-medias-half-socks-anti-delizantes",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Sin Pien Half Socksantidelizante",
+    "slug": "fox-sin-pien-half-socksantidelizante",
+    "brand": "Fox",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 5000,
+    "price_3_installments_ars": 6000,
+    "price_6_installments_ars": 6500,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Evo 10 Cesped Natural",
+    "slug": "proarquero-evo-10-cesped-natural",
+    "brand": "Proarquero",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 23000,
+    "price_3_installments_ars": 27600,
+    "price_6_installments_ars": 29900,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Superflay Sintetico",
+    "slug": "proarquero-superflay-sintetico",
+    "brand": "Proarquero",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": 20000,
+    "price_3_installments_ars": 24000,
+    "price_6_installments_ars": 26000,
+    "variants": [
+      {
+        "size": "11",
+        "stock": 0
+      },
+      {
+        "size": "3",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      },
+      {
+        "size": "2",
+        "stock": 0
+      },
+      {
+        "size": "7",
+        "stock": 0
+      },
+      {
+        "size": "6",
+        "stock": 0
+      },
+      {
+        "size": "5",
+        "stock": 0
+      },
+      {
+        "size": "4",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Remera Lycra Foam Protec 426",
+    "slug": "vgfc-remera-lycra-foam-protec-426-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Rem Lycra Iron 986 / Samu 429",
+    "slug": "vgfc-rem-lycra-iron-986-samu-429-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "size": "M",
+        "stock": 9
+      },
+      {
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Remera Lycra Basic Tech 966",
+    "slug": "vgfc-remera-lycra-basic-tech-966-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "name": "Calza Larga Basic Tech 968",
+    "slug": "vgfc-calza-larga-basic-tech-968-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza 3/4 Foam Protec 428",
+    "slug": "vgfc-calza-3-4-foam-protec-428-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Iron 987 / Samu 437",
+    "slug": "vgfc-calza-corta-iron-987-samu-437-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "size": "XL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "name": "Calza Larga Iron 988 / Samu 439",
+    "slug": "vgfc-calza-larga-iron-988-samu-439-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Basic Tech 967",
+    "slug": "vgfc-calza-corta-basic-tech-967-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Bermuda Protec 402 /468",
+    "slug": "vgfc-bermuda-protec-402-468-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Foam Protec 427",
+    "slug": "vgfc-calza-corta-foam-protec-427-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Pantalon 3/4 488",
+    "slug": "vgfc-pantalon-3-4-488-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Panta Flexipant Gk Power 476",
+    "slug": "vgfc-panta-flexipant-gk-power-476-adulto",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Adulto",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Pantalon Flexipant 405",
+    "slug": "vgfc-pantalon-flexipant-405-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 3
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "12",
+        "stock": 2
+      },
+      {
+        "size": "14",
+        "stock": 2
+      },
+      {
+        "size": "16",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "name": "Bermuda Basic Tech",
+    "slug": "vgfc-bermuda-basic-tech-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 2
+      },
+      {
+        "size": "12",
+        "stock": 2
+      },
+      {
+        "size": "14",
+        "stock": 2
+      },
+      {
+        "size": "16",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Remera Lycra Basic Tech 962",
+    "slug": "vgfc-remera-lycra-basic-tech-962-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 5
+      },
+      {
+        "size": "10",
+        "stock": 5
+      },
+      {
+        "size": "12",
+        "stock": 3
+      },
+      {
+        "size": "14",
+        "stock": 6
+      },
+      {
+        "size": "16",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "Remera Compresion 993",
+    "slug": "vgfc-remera-compresion-993-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 3
+      },
+      {
+        "size": "10",
+        "stock": 2
+      },
+      {
+        "size": "12",
+        "stock": 1
+      },
+      {
+        "size": "14",
+        "stock": 2
+      },
+      {
+        "size": "16",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Compresion 994",
+    "slug": "vgfc-calza-corta-compresion-994-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 3
+      },
+      {
+        "size": "10",
+        "stock": 3
+      },
+      {
+        "size": "12",
+        "stock": 3
+      },
+      {
+        "size": "14",
+        "stock": 3
+      },
+      {
+        "size": "16",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza Corta Basic Tech 963",
+    "slug": "vgfc-calza-corta-basic-tech-963-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 5
+      },
+      {
+        "size": "10",
+        "stock": 4
+      },
+      {
+        "size": "12",
+        "stock": 3
+      },
+      {
+        "size": "14",
+        "stock": 4
+      },
+      {
+        "size": "16",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "Calza 3/4 Compresion 995",
+    "slug": "vgfc-calza-3-4-compresion-995-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 2
+      },
+      {
+        "size": "10",
+        "stock": 0
+      },
+      {
+        "size": "12",
+        "stock": 0
+      },
+      {
+        "size": "14",
+        "stock": 1
+      },
+      {
+        "size": "16",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Calza Larga Basic Tech 964",
+    "slug": "vgfc-calza-larga-basic-tech-964-junior",
+    "brand": "VGFC",
+    "category": "Indumentaria",
+    "audience": "Junior",
+    "price_cash_ars": null,
+    "price_3_installments_ars": null,
+    "price_6_installments_ars": null,
+    "variants": [
+      {
+        "size": "8",
+        "stock": 4
+      },
+      {
+        "size": "10",
+        "stock": 3
+      },
+      {
+        "size": "12",
+        "stock": 3
+      },
+      {
+        "size": "14",
+        "stock": 3
+      },
+      {
+        "size": "16",
+        "stock": 2
+      }
+    ]
+  }
+]
