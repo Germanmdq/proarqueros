@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { categories, categoryAnchor, products, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
+import { categories, productStock, products, storeCategories, storeCategoryAnchor, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
 import { LucianFilterDrawer, emptyFilters, matchesFilters } from "./LucianFilterDrawer";
 import { LucianProductBuyCard } from "./LucianProductBuyCard";
 import styles from "./product-catalog.module.css";
@@ -22,7 +22,7 @@ export function ProductCatalog({ items, onAdd }: { items: CartItem[]; onAdd: (pr
     && filters.min === emptyFilters().min && filters.max === emptyFilters().max;
 
   function card(product: Product) {
-    return <LucianProductBuyCard key={product.id} product={product} remainingStock={Math.max(0, product.stock - (quantities.get(product.id) ?? 0))} onAdd={onAdd} />;
+    return <LucianProductBuyCard key={product.id} product={product} remainingStock={Math.max(0, productStock(product) - (quantities.get(product.id) ?? 0))} onAdd={onAdd} />;
   }
 
   return <div className={styles.catalog}>
@@ -35,16 +35,18 @@ export function ProductCatalog({ items, onAdd }: { items: CartItem[]; onAdd: (pr
     <div className={styles.results}>
     <LucianFilterDrawer source={source} value={filters} onChange={setFilters} />
     <p className={styles.pricing}>Precios al contado en pesos argentinos. Consultá las opciones de cuotas y talles dentro de cada ficha.</p>
-    {grouped ? categories.filter((category) => category !== "Todo").map((category) => {
-      const categoryProducts = shown.filter((product) => product.category === category);
-      const expanded = expandedCategories.includes(category);
-      return <section key={category} id={categoryAnchor(category)} className={styles.categorySection} aria-labelledby={`${categoryAnchor(category)}-title`}>
-        <div className={styles.categoryTitle}><h3 id={`${categoryAnchor(category)}-title`}>{category}</h3><span>{categoryProducts.length} productos</span></div>
+    {grouped ? storeCategories.map((category) => {
+      const categoryProducts = shown.filter(category.matches);
+      const expanded = expandedCategories.includes(category.name);
+      const anchor = storeCategoryAnchor(category.name);
+      return <section key={category.name} id={anchor} className={styles.categorySection} aria-labelledby={`${anchor}-title`}>
+        <div className={styles.categoryTitle}><div><h3 id={`${anchor}-title`}>{category.name}</h3><p>{category.description}</p></div><span>{categoryProducts.length} productos</span></div>
+        {!categoryProducts.length ? <p className={styles.emptyCategory}>Próximamente vas a encontrar productos en esta categoría.</p> : null}
         <div className={`${styles.grid} ${styles.seriesGrid}`}>{(expanded ? categoryProducts : categoryProducts.slice(0, 6)).map(card)}</div>
-        <div className={styles.categoryFooter}><button type="button" aria-expanded={expanded} aria-label={`${expanded ? "Ver menos" : "Ver todo"} de ${category}`} onClick={() => {
-          setExpandedCategories((current) => expanded ? current.filter((value) => value !== category) : [...current, category]);
-          if (expanded) document.getElementById(categoryAnchor(category))?.scrollIntoView({ block: "start" });
-        }}>{expanded ? `Ver menos ${category.toLowerCase()}` : `Ver todo de ${category.toLowerCase()} (${categoryProducts.length})`} <span aria-hidden="true">{expanded ? "−" : "→"}</span></button></div>
+        {categoryProducts.length > 6 ? <div className={styles.categoryFooter}><button type="button" aria-expanded={expanded} aria-label={`${expanded ? "Ver menos" : "Ver todo"} de ${category.name}`} onClick={() => {
+          setExpandedCategories((current) => expanded ? current.filter((value) => value !== category.name) : [...current, category.name]);
+          if (expanded) document.getElementById(anchor)?.scrollIntoView({ block: "start" });
+        }}>{expanded ? `Ver menos ${category.name.toLowerCase()}` : `Ver todo de ${category.name.toLowerCase()} (${categoryProducts.length})`} <span aria-hidden="true">{expanded ? "−" : "→"}</span></button></div> : null}
       </section>;
     }) : <div className={styles.grid}>{shown.map(card)}</div>}
     {shown.length === 0 ? <div className={styles.empty}><p>No encontramos productos con esos filtros.</p><button type="button" onClick={() => { setFilters(emptyFilters()); setQuery(""); }}>Ver los {products.length} productos</button></div> : null}

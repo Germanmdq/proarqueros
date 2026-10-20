@@ -1,6 +1,6 @@
 .u240-catalog{--ux-surface:var(--paper);--ux-ink:var(--ink);color:var(--ux-ink)}
 .u240-catalog .u240-items{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
-.u240-catalog .u240-ft{flex:none;padding-bottom:max(20px,env(safe-area-inset-bottom))}
+.u240-catalog .u240-ft{flex:none;padding-bottom:max(20px,env(safe-area-inset-bottom))}.u240-catalog .u240-shipping{margin:9px 0 0;color:#08733d;font-size:12px;font-weight:700}
 .u240-catalog .u240-in{align-items:start;padding:16px;gap:10px}
 .u240-catalog .u240-th{object-fit:contain;background:#fff}
 .u240-catalog .u240-tx{min-width:0;font-size:12px}

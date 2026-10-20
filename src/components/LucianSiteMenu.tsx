@@ -2,10 +2,10 @@
 "use client";
 
 import { useEffect, useId, useRef, useState, type CSSProperties, type MouseEvent, type ReactNode } from "react";
-import { categories, categoryAnchor } from "@/lib/catalog";
+import { storeCategories, storeCategoryAnchor } from "@/lib/catalog";
 import "./lucian-site-menu.css";
 
-const links = [{ name: "Inicio", href: "#inicio" }, ...categories.filter((category) => category !== "Todo").map((category) => ({ name: category, href: `#${categoryAnchor(category)}` })), { name: "Contacto", href: "#club" }];
+const links = [{ name: "Inicio", href: "#inicio" }, ...storeCategories.map((category) => ({ name: category.name, href: `#${storeCategoryAnchor(category.name)}` })), { name: "Contacto", href: "#club" }];
 
 export function LucianSiteMenu({ children, onNavigate }: { children: ReactNode; onNavigate?: () => void }) {
   const [open, setOpen] = useState(false);

@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useEffect, useId, useRef, useState } from "react";
-import { formatPrice, variantPrice, type Product, type ProductVariant } from "@/lib/catalog";
+import { formatPrice, variantPrice, variantStock, type Product, type ProductVariant } from "@/lib/catalog";
 import "./lucian-product-buy-card.css";
 
 type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string };
@@ -80,6 +80,7 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
   const variants = color ? product.variants.filter((variant) => variant.color === color) : product.variants;
   const hasSizes = product.variants.some((variant) => variant.size);
   const price = selected ? variantPrice(product, selected) : product.price;
+  const selectedStock = selected ? variantStock(product, selected) : remainingStock;
 
   function selectVariant(variant: ProductVariant) {
     setSelected(variant);
@@ -130,7 +131,7 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
   }
 
   function add() {
-    if (!selected || added || remainingStock <= 0) return;
+    if (!selected || added || selectedStock <= 0) return;
     onAdd(product, selected);
     setAdded(true);
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -203,9 +204,9 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
             {variants.map((variant, index) => <button key={variant.id} type="button" className="u221-sz" role="radio" aria-checked={selected?.id === variant.id} tabIndex={selected ? (selected.id === variant.id ? 0 : -1) : (index === 0 ? 0 : -1)} onClick={() => selectVariant(variant)}>{variant.size ?? variant.label}</button>)}
           </div> : null}
           <p className="u221-note">{color || product.color ? `Color ${color || product.color}. ` : "Color a confirmar. "}Consultá disponibilidad.</p>
-          <button type="button" className={`u221-ad${added ? " is-ok" : ""}`} disabled={!selected || added || remainingStock <= 0} onClick={add}>
+          <button type="button" className={`u221-ad${added ? " is-ok" : ""}`} disabled={!selected || added || selectedStock <= 0} onClick={add}>
             <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 7.5l2.6 2.6L11 4.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-            <span aria-live="polite">{added ? "Agregado" : remainingStock <= 0 ? "Sin stock" : selected ? "Agregar al carrito" : "Elegí una variante"}</span>
+            <span aria-live="polite">{added ? "Agregado" : selectedStock <= 0 ? "Sin stock" : selected ? "Agregar al carrito" : "Elegí una variante"}</span>
           </button>
         </div>
       </div>

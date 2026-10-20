@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import { formatPrice, products, variantPrice, type CartItem } from "@/lib/catalog";
+import { formatPrice, products, variantPrice, variantStock, type CartItem } from "@/lib/catalog";
 import "./lucian-cart-catalog.css";
 
 type Props = { items: CartItem[]; open: boolean; onClose: () => void; onQuantityChange: (item: CartItem, quantity: number) => void };
@@ -33,9 +33,10 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
   });
   const total = lines.reduce((sum, line) => sum + variantPrice(line.product, line.variant) * line.quantity, 0);
   const count = lines.reduce((sum, line) => sum + line.quantity, 0);
+  const freeShipping = total > 100000;
   const message = ["Hola, quisiera consultar este pedido de Proarquero:", ...lines.map((line) =>
     `${line.product.brand} ${line.product.name} · ${line.product.audience} · ${line.product.variantLabel}: ${line.variant.label} · Color: ${line.variant.color ?? line.product.color ?? "a confirmar"} · Cantidad: ${line.quantity} · Subtotal: ${formatPrice(variantPrice(line.product, line.variant) * line.quantity)}`),
-    `Total al contado: ${formatPrice(total)}`, "¿Podrían confirmarme talles, colores y disponibilidad?"].join("\n\n");
+    `Total estimado: ${formatPrice(total)}`, freeShipping ? "Envío gratis aplicable por superar $100.000." : "¿Podrían confirmarme talles, colores y disponibilidad?"].join("\n\n");
 
   return <div className="ux u240-shell u240-catalog" onKeyDown={(event) => {
     if (event.key === "Escape") { event.preventDefault(); onClose(); }
@@ -54,17 +55,17 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
       <div className="u240-items">
         {lines.length === 0 ? <p className="u240-empty">Tu carrito está vacío. Elegí un producto y su variante para comenzar.</p> : null}
         {lines.map((line) => {
-          const allocated = items.filter((item) => item.productId === line.product.id).reduce((sum, item) => sum + item.quantity, 0);
+          const allocated = items.filter((item) => item.variantId === line.variantId).reduce((sum, item) => sum + item.quantity, 0);
           return <div className="u240-in" key={line.variantId}>
             {line.product.image ? <Image className="u240-th" src={line.variant.image ?? line.product.image} alt={line.product.isReferenceImage ? "Imagen ilustrativa" : line.product.name} width={54} height={62} unoptimized /> : null}
             <div className="u240-tx"><b>{line.product.brand} {line.product.name}</b><small>{line.product.audience} · {line.variant.label}</small><small>Color: {line.variant.color ?? line.product.color ?? "a confirmar"}</small>
-              <div className="u240-qt"><button type="button" aria-label={`Quitar una unidad de ${line.product.name} ${line.variant.label}`} onClick={() => onQuantityChange(line, line.quantity - 1)}>−</button><span>{line.quantity}</span><button type="button" aria-label={`Agregar una unidad de ${line.product.name} ${line.variant.label}`} disabled={allocated >= line.product.stock} onClick={() => onQuantityChange(line, line.quantity + 1)}>+</button></div>
+              <div className="u240-qt"><button type="button" aria-label={`Quitar una unidad de ${line.product.name} ${line.variant.label}`} onClick={() => onQuantityChange(line, line.quantity - 1)}>−</button><span>{line.quantity}</span><button type="button" aria-label={`Agregar una unidad de ${line.product.name} ${line.variant.label}`} disabled={allocated >= variantStock(line.product, line.variant)} onClick={() => onQuantityChange(line, line.quantity + 1)}>+</button></div>
               <button className="u240-remove" type="button" onClick={() => onQuantityChange(line, 0)}>Eliminar</button>
             </div><strong>{formatPrice(variantPrice(line.product, line.variant) * line.quantity)}</strong>
           </div>;
         })}
       </div>
-      <div className="u240-ft"><div className="u240-sm">Total al contado <b>{formatPrice(total)}</b></div>
+      <div className="u240-ft"><div className="u240-sm">Total estimado <b>{formatPrice(total)}</b></div><p className="u240-shipping">{freeShipping ? "✓ Envío gratis aplicado" : `Te faltan ${formatPrice(100001 - total)} para envío gratis`}</p>
         {lines.length ? <a className="u240-ck" href={`https://wa.me/5492236326323?text=${encodeURIComponent(message)}`} target="_blank" rel="noreferrer">Consultar pedido por WhatsApp</a> : <button className="u240-ck" type="button" onClick={onClose}>Ver productos</button>}
       </div>
     </aside>

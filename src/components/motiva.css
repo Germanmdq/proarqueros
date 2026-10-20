@@ -1,0 +1,28 @@
+/* Lucian UX/UI Prompt #247 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#247 */
+.motiva-trigger{position:fixed;right:24px;bottom:24px;z-index:18;border:0;border-radius:999px;background:var(--blue);color:#fff;padding:14px 24px;font-weight:600;box-shadow:0 8px 28px #0069ed33}
+.u247{--ux-surface:#fff;--ux-ink:#172235;--ux-ink-2:#5c687a;--ux-ink-3:#738095;--ux-accent:var(--blue);--ux-line:#dce4ef;--ux-shadow-strong:#11110f66;position:relative;width:300px;height:480px;border-radius:32px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u247.motiva-dialog{position:fixed;inset:0;margin:auto;padding:0;border:0;width:min(760px,calc(100vw - 24px));height:min(760px,90svh);max-width:none;max-height:none;font-family:var(--font-sans)}
+.motiva-dialog::backdrop{background:#07101ac9;backdrop-filter:blur(5px)}
+.u247-sc{position:absolute;inset:0 0 72px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none}
+.u247-sc::-webkit-scrollbar{display:none}
+.u247-sc:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-4px;border-radius:32px}
+.u247-hd{padding:112px 24px 24px;text-align:center}
+.u247-hd small{font-size:10px;font-weight:600;letter-spacing:.06em;color:var(--ux-accent)}
+.u247-hd h3{margin:8px 0 0;font-size:23px;line-height:1.2;font-weight:600;letter-spacing:-.04em}
+.u247-pin{height:640px}
+.u247-st{position:sticky;top:126px;display:flex;flex-direction:column;align-items:center}
+.u247-v{position:relative;width:calc(62% + 30% * var(--p,0));aspect-ratio:16/9;border-radius:calc(22px - 2px * var(--p,0));overflow:hidden;background:#0B1026;box-shadow:0 20px 40px -22px rgba(0,0,0,.6)}
+.u247-v video{display:block;width:100%;height:100%;object-fit:contain}
+.u247-st2{position:absolute;pointer-events:none;left:12px;top:12px;padding:3px 8px;border-radius:999px;background:#0006;color:#fff;font-size:9.5px;font-weight:600;display:flex;align-items:center;gap:5px}
+.u247-st2 i{width:6px;height:6px;border-radius:50%;background:#94A3B8}
+.u247.is-play .u247-st2 i{background:#F43F5E;box-shadow:0 0 0 3px #f43f5e4d}
+.u247-hint{display:flex;flex-direction:column;align-items:center;gap:2px;margin-top:14px;font-size:11px;font-weight:500;color:var(--ux-ink-3);transition:opacity .3s}
+.u247-ft{padding:0 24px 40px;text-align:center}
+.u247-ft b{display:block;font-size:15px;font-weight:600}
+.u247-ft span{font-size:11px;font-weight:500;color:var(--ux-ink-2)}
+.u247 .motiva-close{position:absolute;right:16px;top:16px;z-index:2;border:1px solid var(--ux-line);border-radius:999px;background:var(--ux-surface);color:var(--ux-ink);padding:10px 16px}
+.u247 .motiva-actions{position:absolute;bottom:0;left:0;right:0;height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;background:var(--ux-surface);border-top:1px solid var(--ux-line);font-size:12px}
+.u247 .motiva-actions button{border:0;border-radius:999px;background:var(--blue);color:#fff;padding:12px 24px;font-weight:600}
+.u247 button:focus-visible,.motiva-trigger:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+@media(prefers-color-scheme:dark){.u247{--ux-surface:#13141c;--ux-ink:#f4f0e8;--ux-ink-2:#bfc4ce;--ux-ink-3:#a5afbf;--ux-line:#ffffff24}}
+@media(prefers-reduced-motion:reduce){.u247-v{width:92%}.u247-hint{display:none}.u247 *{transition:none!important;animation:none!important}}
