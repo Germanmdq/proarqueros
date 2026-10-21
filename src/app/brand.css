@@ -12,7 +12,7 @@ html,body{background:#fff}
 .nav .bag{grid-column:3;grid-row:1;justify-self:end;color:#fff;margin-right:60px;font-size:12px}
 .bag span{display:grid;place-items:center;background:var(--blue);color:#fff;border-radius:99px;min-width:18px;height:18px}
 /* Stable viewport height avoids resizing the hero as mobile browser bars hide. */
-.promo-ticker{height:34px;overflow:hidden;background:var(--blue);color:#fff;display:flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:800;letter-spacing:.06em;position:relative;z-index:6;width:100%}.promo-ticker>div{display:flex;min-width:max-content;animation:promo-scroll 26s linear infinite}.promo-ticker span{padding:0 38px;position:relative}.promo-ticker span:after{content:"•";position:absolute;right:0;opacity:.55}
+.promo-ticker{height:34px;overflow:hidden;background:var(--blue);color:#fff;display:flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:800;letter-spacing:.06em;position:relative;z-index:6;width:100%}.promo-ticker>div{display:flex;width:max-content;animation:promo-scroll 20s linear infinite}.promo-ticker span{display:flex;flex:0 0 100vw;align-items:center;justify-content:center;padding:0 24px;position:relative}.promo-ticker span:after{content:""}
 .hero{height:min(680px,calc(100svh - 160px));min-height:540px;max-height:none;background:#0c2719}
 .hero-image{background:linear-gradient(90deg,#06140d 0%,#06140daa 42%,transparent 88%),url('/images/keeper-hero-v2.png') center 34%/cover no-repeat;transform:none;animation:none}
 .hero-copy{padding:55px max(40px,6vw);max-width:830px}
@@ -39,6 +39,6 @@ html,body{background:#fff}
 .button-dark{background:var(--blue);color:#fff;border-radius:6px}
 footer{background:#0b2014;padding:28px max(40px,6vw)}
 footer .site-logo{filter:none;mix-blend-mode:normal;width:160px;height:82px}
-@keyframes promo-scroll{to{transform:translateX(-33.333%)}}
+@keyframes promo-scroll{to{transform:translateX(-50%)}}
 @media(max-width:720px){.nav{top:31px;height:98px;grid-template-columns:minmax(0,1fr) 140px minmax(0,1fr);padding:5px 18px}.site-logo{width:140px;height:88px}.nav-links{display:none}.nav .bag{margin:0 50px 0 0}.promo-ticker{height:31px;font-size:8px}.promo-ticker span{padding:0 22px}.hero{height:590px;min-height:590px}.hero-image{background-position:72% top}.hero-copy{padding:155px 6vw 55px}.hero h1{font-size:clamp(44px,12vw,68px)}.hero-description{font-size:14px;max-width:300px}.hero-foot{left:6vw;right:6vw}.quick-categories{display:block;padding:42px 18px 8px}.quick-categories h2{font-size:27px;margin-bottom:24px}.quick-category-grid{grid-template-columns:1fr 1fr;gap:9px}.quick-category{min-height:132px;padding:14px}.quick-category strong{font-size:15px}.collection.section{padding:35px 18px 60px}.section-top{display:block;margin-bottom:28px}.section-top .eyebrow{margin-bottom:18px}.section h2{font-size:27px}.section-intro{margin-top:14px;max-width:none}.technology{padding:60px 6vw}.club-card{min-height:350px;padding:50px 6vw}}
 @media(max-width:720px){.u045-site .nav .bag{grid-column:1;justify-self:start;margin:0;gap:5px;font-size:11px}}
