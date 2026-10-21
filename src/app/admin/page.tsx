@@ -8,7 +8,7 @@ type Variant = { id: string; size: string; stock: number; product_id: string };
 type Product = { id: string; name: string; price_cash_ars: number | null; active: boolean; brands: { name: string }[]; product_variants: Variant[] };
 type Supplier = { id: string; name: string };
 const adminUsername = "proarqueros2026";
-const adminEmail = "proarqueros2026@proarqueros.com";
+const adminEmail = "mateogonzaleztortilla@gmail.com";
 
 export default function AdminPage() {
   const [username, setUsername] = useState(""); const [password, setPassword] = useState(""); const [message, setMessage] = useState("");
