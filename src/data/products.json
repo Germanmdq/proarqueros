@@ -8847,7 +8847,7 @@
         "price3Installments":  33600,
         "price6Installments":  36400,
         "description":  "Reusch ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Indumentaria. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/reusch-termica.jpg",
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,
@@ -9003,7 +9003,7 @@
         "price3Installments":  42000,
         "price6Installments":  45500,
         "description":  "Reusch ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Indumentaria. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/reusch-princes-park.jpg",
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,
@@ -9081,7 +9081,7 @@
         "price3Installments":  33600,
         "price6Installments":  36400,
         "description":  "Reusch ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Indumentaria. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/reusch-calza-larga.png",
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,
@@ -9237,7 +9237,7 @@
         "price3Installments":  33600,
         "price6Installments":  36400,
         "description":  "Reusch ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Indumentaria. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/reusch-buzo-unikom.jpg",
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,
@@ -15510,4 +15510,3 @@
                      ]
     }
 ]
-
