@@ -1,8 +1,8 @@
-/* Lucian UX/UI Prompt #041 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#041 */
-.u041{--x:34px;--ux-surface:#fff;--ux-ink:#172235;--ux-ink-3:#738095;--ux-line:#dce4ef;--ux-accent:var(--blue);--ux-accent-ink:#fff;--ux-grad:linear-gradient(120deg,#0069ed,#3d8bff);--ux-shadow-strong:#11110f66;--ux-spring:cubic-bezier(.34,1.45,.64,1);position:relative;width:350px;height:170px;display:flex;align-items:flex-end}
+﻿/* Lucian UX/UI Prompt #041 Â· MIT License (c) 2026 Seokwoooo Â· https://lucianlabs.dev/uxui-prompt/#041 */
+.u041{--x:34px;--ux-surface:#fff;--ux-ink:#172235;--ux-ink-3:#738095;--ux-line:#dce4ef;--ux-accent:#159447;--ux-accent-ink:#fff;--ux-grad:linear-gradient(120deg,#0f7f3d,#18a653);--ux-shadow-strong:#11110f66;--ux-spring:cubic-bezier(.34,1.45,.64,1);position:relative;width:350px;height:170px;display:flex;align-items:flex-end}
 .u041-bar{position:relative;width:100%;height:84px;border-radius:28px;background:var(--ux-surface);-webkit-mask:radial-gradient(circle 42px at var(--x) -4px,transparent 96%,#000 100%);mask:radial-gradient(circle 42px at var(--x) -4px,transparent 96%,#000 100%);box-shadow:0 0 0 1px var(--ux-line)}
 .u041-shadow{position:absolute;left:0;right:0;bottom:0;height:84px;border-radius:28px;box-shadow:0 24px 40px -24px var(--ux-shadow-strong);pointer-events:none}
-.u041-bub{position:absolute;left:var(--x);top:calc(100% - 84px - 35px);width:62px;height:62px;margin-left:-31px;border-radius:50%;background:var(--ux-grad);box-shadow:0 14px 26px -12px #0069edb3}
+.u041-bub{position:absolute;left:var(--x);top:calc(100% - 84px - 35px);width:62px;height:62px;margin-left:-31px;border-radius:50%;background:var(--ux-grad);box-shadow:0 14px 26px -12px #159447b3}
 .u041-tabs{position:absolute;left:0;right:0;bottom:0;height:84px;display:flex;margin:0;padding:0 14px;list-style:none}
 .u041-tabs>li{flex:1;display:flex}
 .u041-tab{position:relative;flex:1;height:100%;border:0;padding:0;background:none;color:var(--ux-ink-3)}
@@ -23,3 +23,4 @@
 @media(max-width:720px){.u041.mobile-navigation{display:flex;position:fixed;bottom:max(12px,env(safe-area-inset-bottom));left:12px;right:12px;width:auto;height:120px;z-index:19;pointer-events:none}.u041-tabs,.u041-products{pointer-events:auto}.u045-top,.u045-site .nav .bag,.motiva-trigger{display:none}body{padding-bottom:120px}}
 @media(prefers-reduced-motion:reduce){.u041 *{transition:none!important}}
 @media(prefers-color-scheme:dark){.u041{--ux-surface:#13141c;--ux-ink:#f4f0e8;--ux-ink-3:#a5afbf;--ux-line:#ffffff24}}
+
