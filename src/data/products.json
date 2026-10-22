@@ -7275,7 +7275,7 @@
         "price3Installments":  120000,
         "price6Installments":  130000,
         "description":  "Reusch Ã‚Â· Indumentaria. ConsultÃƒÂ¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/reusch-legacy-prime-arrow.webp",
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,
@@ -7338,7 +7338,8 @@
                              "sourceStock":  0,
                              "sourceAvailable":  false
                          }
-                     ]
+                     ],
+        "sourceUrl":  "https://www.reuschexclusivo.com.ar/productos/guante-legacy-prime-arrow/"
     },
     {
         "id":  "reusch-pure-contac-prime-fusion",
