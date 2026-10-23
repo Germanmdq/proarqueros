@@ -8,7 +8,7 @@ import styles from "./product-catalog.module.css";
 
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-export function ProductCatalog({ products, items, onAdd }: { products: Product[]; items: CartItem[]; onAdd: (product: Product, variant: ProductVariant) => void }) {
+export function ProductCatalog({ products, items, onAdd, requestedProductId }: { products: Product[]; items: CartItem[]; onAdd: (product: Product, variant: ProductVariant) => void; requestedProductId?: string | null }) {
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState(emptyFilters);
   const [order, setOrder] = useState("default");
@@ -35,6 +35,21 @@ export function ProductCatalog({ products, items, onAdd }: { products: Product[]
     window.addEventListener("proarqueros:open-product", openRequestedProduct);
     return () => window.removeEventListener("proarqueros:open-product", openRequestedProduct);
   }, [products]);
+  useEffect(() => {
+    if (!requestedProductId) return;
+    const product = products.find((item) => item.id === requestedProductId);
+    if (!product) return;
+    setQuery(product.name);
+    setFilters(emptyFilters());
+    setOrder("default");
+    document.getElementById("coleccion")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const timer = window.setTimeout(() => {
+      const card = document.querySelector<HTMLElement>(`[data-product-id="${requestedProductId}"]`);
+      card?.scrollIntoView({ behavior: "smooth", block: "center" });
+      card?.querySelector<HTMLButtonElement>(".u221-preview-open")?.click();
+    }, 500);
+    return () => window.clearTimeout(timer);
+  }, [requestedProductId, products]);
   const search = normalize(query.trim());
   const source = products.filter((product) => !search || normalize(`${product.name} ${product.brand} ${product.section}`).includes(search));
   const shown = source.filter((product) => matchesFilters(product, filters)).sort((a, b) => order === "price-asc" ? a.price - b.price : order === "price-desc" ? b.price - a.price : order === "name" ? a.name.localeCompare(b.name, "es") : a.sourceRow - b.sourceRow);

@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { formatProductPrice, type Product } from "@/lib/catalog";
 import "./glove-carousel.css";
 
-export function GloveCarousel({ products }: { products: Product[] }) {
+export function GloveCarousel({ products, onOpenProduct }: { products: Product[]; onOpenProduct: (product: Product) => void }) {
   const gloves = useMemo(
     () => products.filter((product) => product.category === "Guantes" && product.image).slice(0, 16),
     [],
@@ -88,7 +88,7 @@ export function GloveCarousel({ products }: { products: Product[] }) {
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
-            return <a key={`${product.id}-${index}`} className="u339-cd" href={`#producto-${product.id}`} onClick={(event) => { event.preventDefault(); if (didDragRef.current) { didDragRef.current = false; return; } window.dispatchEvent(new CustomEvent("proarqueros:open-product", { detail: { productId: product.id } })); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
+            return <a key={`${product.id}-${index}`} className="u339-cd" href="#coleccion" onClick={(event) => { event.preventDefault(); if (didDragRef.current) { didDragRef.current = false; return; } onOpenProduct(product); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
               <div className="u339-th"><Image src={product.image!} alt="" fill sizes="(max-width: 720px) 72vw, 260px" unoptimized /><span>{product.category}</span></div>
               <div className="u339-mt"><b>{product.name}</b><span><span>{product.brand}</span><strong>{formatProductPrice(product.price)}</strong></span></div>
             </a>;
