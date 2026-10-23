@@ -116,3 +116,10 @@
 .u221.is-sheet .u221-op{bottom:14px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:2px}
 .u221.has-colors .u221-ss{margin-top:6px}
 .u221-sz[aria-checked="true"]{background:var(--blue-soft);box-shadow:inset 0 0 0 2px var(--blue);color:var(--blue)}
+
+/* Precio al contado destacado */
+.u221-preview .u221-pr{margin-top:10px;gap:8px}
+.u221-preview .u221-pr b{font-size:22px;font-weight:900;color:#0f7a43;letter-spacing:-.035em}
+.u221-preview .u221-pr span{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;background:#e8f7ee;color:#0f7a43;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+.u221-detail .u221-pr b{font-size:24px;font-weight:900;color:#0f7a43}
+.u221-detail .u221-pr span{padding:4px 8px;border-radius:999px;background:#e8f7ee;color:#0f7a43;font-weight:800;text-transform:uppercase;letter-spacing:.04em}

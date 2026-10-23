@@ -35,7 +35,7 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
   const count = lines.reduce((sum, line) => sum + line.quantity, 0);
   const freeShipping = total > 100000;
   const message = [
-    "👋 ¡Hola! Quisiera consultar por este pedido de *Proarqueros* 🧤⚽",
+    "👋 ¡Hola! Quisiera consultar por este Producto de *Proarqueros* 🧤⚽",
     ...lines.map((line) => [
       `🧤 *Producto:* ${line.product.brand} ${line.product.name}`,
       `👤 *Categoría:* ${line.product.audience}`,
