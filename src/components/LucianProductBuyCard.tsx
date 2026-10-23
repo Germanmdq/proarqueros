@@ -6,10 +6,10 @@ import { useEffect, useId, useRef, useState } from "react";
 import { formatPrice, formatProductPrice, variantPrice, variantStock, type Product, type ProductVariant } from "@/lib/catalog";
 import "./lucian-product-buy-card.css";
 
-type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string };
+type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string; initiallyExpanded?: boolean };
 
 export function LucianProductBuyCard(props: Props) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(Boolean(props.initiallyExpanded));
   const [previewImage, setPreviewImage] = useState<string | null>(null);
   const { product, remainingStock } = props;
   return <>
