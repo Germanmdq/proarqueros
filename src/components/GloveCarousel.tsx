@@ -83,7 +83,7 @@ export function GloveCarousel() {
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
-            return <a key={`${product.id}-${index}`} className="u339-cd" href="#coleccion" aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
+            return <a key={`${product.id}-${index}`} className="u339-cd" href={`#producto-${product.id}`} onClick={(event) => { event.preventDefault(); const card = document.querySelector<HTMLElement>(`[data-product-id="${product.id}"]`); if (!card) return; card.scrollIntoView({ behavior: "smooth", block: "center" }); window.setTimeout(() => card.querySelector<HTMLButtonElement>(".u221-preview-open")?.click(), 450); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
               <div className="u339-th"><Image src={product.image!} alt="" fill sizes="(max-width: 720px) 72vw, 260px" unoptimized /><span>{product.category}</span></div>
               <div className="u339-mt"><b>{product.name}</b><span><span>{product.brand}</span><strong>{formatProductPrice(product.price)}</strong></span></div>
             </a>;
