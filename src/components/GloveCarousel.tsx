@@ -9,7 +9,7 @@ import "./glove-carousel.css";
 export function GloveCarousel({ products }: { products: Product[] }) {
   const gloves = useMemo(
     () => products.filter((product) => product.category === "Guantes" && product.image).slice(0, 16),
-    [],
+    [products],
   );
   const trackRef = useRef<HTMLDivElement>(null);
   const rowRef = useRef<HTMLDivElement>(null);
@@ -88,7 +88,7 @@ export function GloveCarousel({ products }: { products: Product[] }) {
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
-            return <a key={`${product.id}-${index}`} className="u339-cd" href={`/producto/${product.id}`} onClick={(event) => { if (didDragRef.current) { event.preventDefault(); didDragRef.current = false; } }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
+            return <a key={`${product.id}-${index}`} className="u339-cd" href={`/?producto=${encodeURIComponent(product.id)}#coleccion`} onClick={(event) => { if (didDragRef.current) { event.preventDefault(); didDragRef.current = false; } }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
               <div className="u339-th"><Image src={product.image!} alt="" fill sizes="(max-width: 720px) 72vw, 260px" unoptimized /><span>{product.category}</span></div>
               <div className="u339-mt"><b>{product.name}</b><span><span>{product.brand}</span><strong>{formatProductPrice(product.price)}</strong></span></div>
             </a>;
