@@ -10,7 +10,7 @@
 .u339 .u339-tr{position:absolute;left:0;right:0;top:86px;height:234px;overflow:hidden;cursor:grab;touch-action:pan-y;user-select:none}
 .u339 .u339-tr.is-drag{cursor:grabbing}
 .u339 .u339-rw{display:flex;gap:14px;padding:0 26px;will-change:transform}
-.u339 .u339-cd{flex:none;width:260px;border-radius:14px;background:#fff;box-shadow:0 0 0 1px #d8e7dc,0 12px 24px -18px rgba(11,101,53,.55);overflow:hidden;transition:transform .3s}
+.u339 .u339-cd{flex:none;width:260px;padding:0;border:0;border-radius:14px;background:#fff;box-shadow:0 0 0 1px #d8e7dc,0 12px 24px -18px rgba(11,101,53,.55);overflow:hidden;transition:transform .3s;text-align:left;color:inherit;font:inherit;cursor:pointer}
 .u339 .u339-cd:hover{transform:translateY(-4px)}
 .u339 .u339-th{height:154px;position:relative;overflow:hidden;background:#e5f4e9}
 .u339 .u339-th img{object-fit:contain;padding:12px;transition:transform .35s}

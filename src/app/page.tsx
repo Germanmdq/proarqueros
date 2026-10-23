@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { ProductCatalog } from "@/components/ProductCatalog";
+import { LucianProductBuyCard } from "@/components/LucianProductBuyCard";
 import { LucianCartDrawer } from "@/components/LucianCartDrawer";
 import { LucianSiteMenu } from "@/components/LucianSiteMenu";
 import { LucianCardStack } from "@/components/LucianCardStack";
@@ -9,7 +10,7 @@ import { Motiva } from "@/components/Motiva";
 import { MobileNavigation } from "@/components/MobileNavigation";
 import { GloveCarousel } from "@/components/GloveCarousel";
 
-import { storeCategories, storeCategoryAnchor, variantStock, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
+import { productStock, storeCategories, storeCategoryAnchor, variantStock, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
 import { useLiveProducts } from "@/lib/use-live-products";
 import catalogStyles from "@/components/product-catalog.module.css";
 
@@ -20,6 +21,7 @@ export default function Home() {
   const [notice, setNotice] = useState("");
   const [catalogVersion, setCatalogVersion] = useState(0);
   const [motivaOpen, setMotivaOpen] = useState(false);
+  const [carouselProduct, setCarouselProduct] = useState<Product | null>(null);
   const [mobileTarget, setMobileTarget] = useState<{ id: string } | null>(null);
   useEffect(() => {
     if (!mobileTarget) return;
@@ -52,7 +54,8 @@ export default function Home() {
     <header className="nav"><a className="brand" href="#inicio" aria-label="Proarquero, inicio"><span className="site-brand-clean" aria-hidden="true"><span className="site-brand-mark"><i></i><b></b><em></em></span><strong>PROARQUEROS</strong></span></a><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}>Carrito<span>{count}</span></button></header>
     <div className="promo-ticker" aria-label="Beneficios de Proarquero"><div>{["ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS", "ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS", "ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS"].map((promotion, index) => <span key={`${promotion}-${index}`} aria-hidden={index >= 4}>{promotion}</span>)}</div></div>
     <section id="inicio" className="hero"><div className="hero-image" /><div className="hero-grain" /><div className="hero-copy"><p className="eyebrow reveal">PROARQUERO · EQUIPAMIENTO PARA ARQUEROS</p><h1 className="reveal delay-1">TODO PARA<br /><i>DEFENDER</i><br />EL ARCO.</h1><p className="hero-description reveal delay-2">Guantes, indumentaria y equipamiento para jugar con confianza.</p><a className="hero-cta" href="#coleccion">Ver productos <span aria-hidden="true">↓</span></a></div></section>
-    <GloveCarousel products={products} />
+    <GloveCarousel products={products} onOpenProduct={setCarouselProduct} />
+    {carouselProduct ? <LucianProductBuyCard product={carouselProduct} remainingStock={productStock(carouselProduct)} onAdd={addToCart} initiallyExpanded onCloseExpanded={() => setCarouselProduct(null)} /> : null}
     <section className="quick-categories" aria-labelledby="quick-categories-title"><div><p className="eyebrow dark-text">Elegí tu equipo</p><h2 id="quick-categories-title">Encontrá lo que buscás</h2></div><div className="quick-category-grid">{storeCategories.slice(0, 6).map((category, index) => <a key={category.name} href={`#${storeCategoryAnchor(category.name)}`} className={`quick-category quick-category-${index}`}><span>0{index + 1}</span><strong>{category.name}</strong><small>{category.description}</small><b aria-hidden="true">→</b></a>)}</div></section>
     <section id="coleccion" className="collection section"><div className="section-top"><p className="eyebrow dark-text">Inicio / Productos</p><h2>Equipamiento para arqueros</h2><p className="section-intro"><strong>Guantes, pelotas, indumentaria y accesorios. Descubrí cada categoría.</strong></p></div><ProductCatalog key={catalogVersion} products={products} items={items} onAdd={addToCart} /></section>
     <LucianCardStack />

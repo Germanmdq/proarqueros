@@ -6,7 +6,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { formatPrice, formatProductPrice, variantPrice, variantStock, type Product, type ProductVariant } from "@/lib/catalog";
 import "./lucian-product-buy-card.css";
 
-type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string; initiallyExpanded?: boolean };
+type Props = { product: Product; remainingStock: number; onAdd: (product: Product, variant: ProductVariant) => void; initialColor?: string; initiallyExpanded?: boolean; onCloseExpanded?: () => void };
 
 export function LucianProductBuyCard(props: Props) {
   const [expanded, setExpanded] = useState(Boolean(props.initiallyExpanded));
@@ -28,7 +28,7 @@ export function LucianProductBuyCard(props: Props) {
       {product.price3Installments ? <div className="u221-finance">3 cuotas de <b>{formatPrice(product.price3Installments / 3)}</b></div> : null}
       <button type="button" className="u221-mb" onClick={() => setExpanded(true)}>Ver producto y variantes</button>
     </article>
-    {expanded ? <ProductDialog {...props} initialColor={product.variants.find((variant) => variant.image === previewImage)?.color ?? undefined} onClose={() => setExpanded(false)} /> : null}
+    {expanded ? <ProductDialog {...props} initialColor={product.variants.find((variant) => variant.image === previewImage)?.color ?? undefined} onClose={() => { setExpanded(false); props.onCloseExpanded?.(); }} /> : null}
   </>;
 }
 
