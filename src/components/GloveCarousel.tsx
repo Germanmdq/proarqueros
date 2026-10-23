@@ -8,7 +8,7 @@ import "./glove-carousel.css";
 
 export function GloveCarousel({ products, onOpenProduct }: { products: Product[]; onOpenProduct: (product: Product) => void }) {
   const gloves = useMemo(
-    () => products.filter((product) => product.category === "Guantes" && product.image).slice(0, 16),
+    () => products.filter((product) => product.image).slice(0, 16),
     [products],
   );
   const trackRef = useRef<HTMLDivElement>(null);
@@ -76,19 +76,28 @@ export function GloveCarousel({ products, onOpenProduct }: { products: Product[]
   }
 
   function onPointerUp(event: React.PointerEvent<HTMLDivElement>) {
+    const dragged = didDragRef.current;
     draggingRef.current = null;
     event.currentTarget.classList.remove("is-drag");
+    if (dragged) {
+      didDragRef.current = false;
+      return;
+    }
+    const target = document.elementFromPoint(event.clientX, event.clientY)?.closest<HTMLElement>("[data-carousel-product-id]");
+    const productId = target?.dataset.carouselProductId;
+    const product = gloves.find((item) => item.id === productId);
+    if (product) onOpenProduct(product);
   }
 
   const carouselProducts = [...gloves, ...gloves];
   return <section className="glove-carousel-section" aria-labelledby="glove-carousel-title">
     <div className="ux u339 glove-carousel">
-      <div className="u339-hd"><div><p>GUANTES DESTACADOS</p><b id="glove-carousel-title">Elegí tu próximo par</b></div><div className="u339-actions"><button type="button" className="u339-pv" aria-label="Ver productos anteriores" onClick={() => moveBy(-1)}><span aria-hidden="true">←</span></button><button type="button" className="u339-nx" aria-label="Ver más productos" onClick={() => moveBy(1)}><span aria-hidden="true">→</span></button></div></div>
+      <div className="u339-hd"><div><p>PRODUCTOS DESTACADOS</p><b id="glove-carousel-title">Elegí tu próximo equipo</b></div><div className="u339-actions"><button type="button" className="u339-pv" aria-label="Ver productos anteriores" onClick={() => moveBy(-1)}><span aria-hidden="true">←</span></button><button type="button" className="u339-nx" aria-label="Ver más productos" onClick={() => moveBy(1)}><span aria-hidden="true">→</span></button></div></div>
       <div ref={trackRef} className="u339-tr" tabIndex={0} aria-label="Carrusel continuo de guantes. Cambia automáticamente y también podés arrastrarlo hacia los costados." onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onKeyDown={(event) => { if (event.key === "ArrowRight") { event.preventDefault(); moveBy(1); } if (event.key === "ArrowLeft") { event.preventDefault(); moveBy(-1); } }}>
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
-            return <button key={`${product.id}-${index}`} type="button" className="u339-cd" onClick={() => { if (didDragRef.current) { didDragRef.current = false; return; } onOpenProduct(product); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
+            return <button key={`${product.id}-${index}`} type="button" className="u339-cd" data-carousel-product-id={product.id} onClick={(event) => { if (event.detail === 0) onOpenProduct(product); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
               <div className="u339-th"><Image src={product.image!} alt="" fill sizes="(max-width: 720px) 72vw, 260px" unoptimized /><span>{product.category}</span></div>
               <div className="u339-mt"><b>{product.name}</b><span><span>{product.brand}</span><strong>{formatProductPrice(product.price)}</strong></span></div>
             </button>;
