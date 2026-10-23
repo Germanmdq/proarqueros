@@ -1,18 +1,38 @@
 "use client";
 
-import { useState } from "react";
-import { categories, productStock, products, storeCategories, storeCategoryAnchor, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
+import { useEffect, useState } from "react";
+import { categories, productStock, storeCategories, storeCategoryAnchor, type CartItem, type Product, type ProductVariant } from "@/lib/catalog";
 import { LucianFilterDrawer, emptyFilters, matchesFilters } from "./LucianFilterDrawer";
 import { LucianProductBuyCard } from "./LucianProductBuyCard";
 import styles from "./product-catalog.module.css";
 
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-export function ProductCatalog({ items, onAdd }: { items: CartItem[]; onAdd: (product: Product, variant: ProductVariant) => void }) {
+export function ProductCatalog({ products, items, onAdd }: { products: Product[]; items: CartItem[]; onAdd: (product: Product, variant: ProductVariant) => void }) {
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState(emptyFilters);
   const [order, setOrder] = useState("default");
   const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
+
+  useEffect(() => {
+    const openRequestedProduct = () => {
+      const id = new URLSearchParams(window.location.search).get("producto");
+      if (!id) return;
+      const product = products.find((item) => item.id === id);
+      if (!product) return;
+      setQuery(product.name);
+      setFilters(emptyFilters());
+      setOrder("default");
+      window.setTimeout(() => {
+        const card = document.querySelector<HTMLElement>(`[data-product-id="${id}"]`);
+        card?.scrollIntoView({ behavior: "smooth", block: "center" });
+        card?.querySelector<HTMLButtonElement>(".u221-preview-open")?.click();
+      }, 120);
+    };
+    openRequestedProduct();
+    window.addEventListener("proarqueros:open-product", openRequestedProduct);
+    return () => window.removeEventListener("proarqueros:open-product", openRequestedProduct);
+  }, [products]);
   const search = normalize(query.trim());
   const source = products.filter((product) => !search || normalize(`${product.name} ${product.brand} ${product.section}`).includes(search));
   const shown = source.filter((product) => matchesFilters(product, filters)).sort((a, b) => order === "price-asc" ? a.price - b.price : order === "price-desc" ? b.price - a.price : order === "name" ? a.name.localeCompare(b.name, "es") : a.sourceRow - b.sourceRow);

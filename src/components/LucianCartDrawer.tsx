@@ -3,17 +3,17 @@
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import { formatPrice, products, variantPrice, variantStock, type CartItem } from "@/lib/catalog";
+import { formatPrice, variantPrice, variantStock, type CartItem, type Product } from "@/lib/catalog";
 import "./lucian-cart-catalog.css";
 
-type Props = { items: CartItem[]; open: boolean; onClose: () => void; onQuantityChange: (item: CartItem, quantity: number) => void };
+type Props = { products: Product[]; items: CartItem[]; open: boolean; onClose: () => void; onQuantityChange: (item: CartItem, quantity: number) => void };
 
 export function LucianCartDrawer(props: Props) {
   if (!props.open) return null;
   return <CartPanel {...props} />;
 }
 
-function CartPanel({ items, onClose, onQuantityChange }: Props) {
+function CartPanel({ products, items, onClose, onQuantityChange }: Props) {
   const closeButton = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
   useEffect(() => {
