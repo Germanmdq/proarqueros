@@ -15,19 +15,21 @@ export function ProductCatalog({ products, items, onAdd }: { products: Product[]
   const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
 
   useEffect(() => {
-    const openRequestedProduct = () => {
-      const id = new URLSearchParams(window.location.search).get("producto");
+    const openRequestedProduct = (event?: Event) => {
+      const requestedId = event instanceof CustomEvent ? event.detail?.productId : undefined;
+      const id = requestedId ?? new URLSearchParams(window.location.search).get("producto");
       if (!id) return;
       const product = products.find((item) => item.id === id);
       if (!product) return;
       setQuery(product.name);
       setFilters(emptyFilters());
       setOrder("default");
+      document.getElementById("coleccion")?.scrollIntoView({ behavior: "smooth", block: "start" });
       window.setTimeout(() => {
         const card = document.querySelector<HTMLElement>(`[data-product-id="${id}"]`);
         card?.scrollIntoView({ behavior: "smooth", block: "center" });
         card?.querySelector<HTMLButtonElement>(".u221-preview-open")?.click();
-      }, 120);
+      }, 350);
     };
     openRequestedProduct();
     window.addEventListener("proarqueros:open-product", openRequestedProduct);

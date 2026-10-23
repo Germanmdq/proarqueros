@@ -15,6 +15,7 @@ export function GloveCarousel({ products }: { products: Product[] }) {
   const rowRef = useRef<HTMLDivElement>(null);
   const positionRef = useRef(0);
   const draggingRef = useRef<{ startX: number; startPosition: number } | null>(null);
+  const didDragRef = useRef(false);
   const [position, setPosition] = useState(0);
   const [loopWidth, setLoopWidth] = useState(1);
 
@@ -61,13 +62,17 @@ export function GloveCarousel({ products }: { products: Product[] }) {
 
   function onPointerDown(event: React.PointerEvent<HTMLDivElement>) {
     draggingRef.current = { startX: event.clientX, startPosition: positionRef.current };
+    didDragRef.current = false;
     event.currentTarget.setPointerCapture(event.pointerId);
     event.currentTarget.classList.add("is-drag");
   }
 
   function onPointerMove(event: React.PointerEvent<HTMLDivElement>) {
     const drag = draggingRef.current;
-    if (drag) moveTo(drag.startPosition + drag.startX - event.clientX);
+    if (drag) {
+      if (Math.abs(event.clientX - drag.startX) > 8) didDragRef.current = true;
+      moveTo(drag.startPosition + drag.startX - event.clientX);
+    }
   }
 
   function onPointerUp(event: React.PointerEvent<HTMLDivElement>) {
@@ -83,7 +88,7 @@ export function GloveCarousel({ products }: { products: Product[] }) {
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
-            return <a key={`${product.id}-${index}`} className="u339-cd" href={`#producto-${product.id}`} onClick={(event) => { event.preventDefault(); const url = new URL(window.location.href); url.searchParams.set("producto", product.id); window.history.replaceState({}, "", url); window.dispatchEvent(new Event("proarqueros:open-product")); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
+            return <a key={`${product.id}-${index}`} className="u339-cd" href={`#producto-${product.id}`} onClick={(event) => { event.preventDefault(); if (didDragRef.current) { didDragRef.current = false; return; } window.dispatchEvent(new CustomEvent("proarqueros:open-product", { detail: { productId: product.id } })); }} aria-label={duplicate ? undefined : `Ver ${product.brand} ${product.name}`} aria-hidden={duplicate || undefined} tabIndex={duplicate ? -1 : undefined}>
               <div className="u339-th"><Image src={product.image!} alt="" fill sizes="(max-width: 720px) 72vw, 260px" unoptimized /><span>{product.category}</span></div>
               <div className="u339-mt"><b>{product.name}</b><span><span>{product.brand}</span><strong>{formatProductPrice(product.price)}</strong></span></div>
             </a>;
