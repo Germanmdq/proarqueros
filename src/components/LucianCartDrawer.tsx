@@ -34,9 +34,20 @@ function CartPanel({ items, onClose, onQuantityChange }: Props) {
   const total = lines.reduce((sum, line) => sum + variantPrice(line.product, line.variant) * line.quantity, 0);
   const count = lines.reduce((sum, line) => sum + line.quantity, 0);
   const freeShipping = total > 100000;
-  const message = ["Hola, quisiera consultar este pedido de Proarquero:", ...lines.map((line) =>
-    `${line.product.brand} ${line.product.name} · ${line.product.audience} · ${line.product.variantLabel}: ${line.variant.label} · Color: ${line.variant.color ?? line.product.color ?? "a confirmar"} · Cantidad: ${line.quantity} · Subtotal: ${formatPrice(variantPrice(line.product, line.variant) * line.quantity)}`),
-    `Total estimado: ${formatPrice(total)}`, freeShipping ? "Envío gratis aplicable por superar $100.000." : "¿Podrían confirmarme talles, colores y disponibilidad?"].join("\n\n");
+  const message = [
+    "👋 ¡Hola! Quisiera consultar por este pedido de *Proarqueros* 🧤⚽",
+    ...lines.map((line) => [
+      `🧤 *Producto:* ${line.product.brand} ${line.product.name}`,
+      `👤 *Categoría:* ${line.product.audience}`,
+      `📏 *${line.product.variantLabel}:* ${line.variant.label}`,
+      `🎨 *Color:* ${line.variant.color ?? line.product.color ?? "A confirmar"}`,
+      `📦 *Cantidad:* ${line.quantity}`,
+      `💵 *Subtotal:* ${formatPrice(variantPrice(line.product, line.variant) * line.quantity)}`,
+    ].join("\n")),
+    `💰 *Total estimado: ${formatPrice(total)}*`,
+    freeShipping ? "🚚 *¡Envío gratis aplicado!*" : "📲 ¿Me podrían confirmar disponibilidad, talles y colores? 🙌",
+    "¡Muchas gracias! 💚⚽",
+  ].join("\n\n");
 
   return <div className="ux u240-shell u240-catalog" onKeyDown={(event) => {
     if (event.key === "Escape") { event.preventDefault(); onClose(); }

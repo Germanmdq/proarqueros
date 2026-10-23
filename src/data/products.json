@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "vgfc-zulu-iv",
         "sourceRow":  3,
@@ -797,7 +797,7 @@
         "price3Installments":  126000,
         "price6Installments":  136500,
         "description":  "Lanusca ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Guantes. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  "/images/products/generated/lanusca/bravo.png",
+        "image":  null,
         "isReferenceImage":  false,
         "stock":  9,
         "color":  null,
@@ -3215,7 +3215,7 @@
         "price3Installments":  32400,
         "price6Installments":  35100,
         "description":  "Prostar ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Guantes. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  null,
+        "image":  "/images/products/reales/prostar/guardian-soft-299.jpg",
         "isReferenceImage":  false,
         "stock":  2,
         "color":  null,
@@ -10643,7 +10643,7 @@
         "price3Installments":  108000,
         "price6Installments":  117000,
         "description":  "CH1 ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Guantes. ConsultÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ disponibilidad de talle y color.",
-        "image":  "/images/products/generated/ch1/rex.png",
+        "image":  null,
         "isReferenceImage":  false,
         "stock":  0,
         "color":  null,

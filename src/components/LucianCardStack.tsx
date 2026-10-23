@@ -52,7 +52,7 @@ export function LucianCardStack() {
     <div className="u223"><div ref={scroller} className="u223-sc" tabIndex={0} aria-label="Descubrí Proarquero: desplazate para ver las tarjetas">
       <p className="u223-k">Encontrá tu próximo equipo</p><div ref={list} className="u223-list">{cards.map((card, index) => <article key={card.title} className="u223-c" style={{ top: `${14 + index * 12}px`, background: card.background } as CSSProperties}>
         <span className="u223-art" aria-hidden="true" /><i>{String(index + 1).padStart(2, "0")} / {card.label}</i><b>{card.title}</b><p>{card.text}</p><span className="u223-sh" aria-hidden="true" />
-      </article>)}</div><div id="club" className="u223-end"><a href="https://wa.me/5492236326323" target="_blank" rel="noreferrer">Hablar con Proarquero</a></div>
+      </article>)}</div><div id="club" className="u223-end"><a href="https://wa.me/5492236326323" target="_blank" rel="noreferrer">Hablar con Proarqueros</a></div>
     </div></div>
   </section>;
 }
