@@ -44,14 +44,3 @@ footer .site-logo{filter:none;mix-blend-mode:normal;width:160px;height:82px}
 @media(max-width:720px){.u045-site .nav .bag{grid-column:1;justify-self:start;margin:0;gap:5px;font-size:11px}}
 
 .section-intro{font-weight:900!important}
-
-/* Logo limpio ProArqueros: sin caja/fondo blanco */
-.site-brand-clean{width:210px;height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:#fff}
-.site-brand-clean strong{font-size:21px;font-weight:900;letter-spacing:-1.3px;line-height:1;text-shadow:0 1px 2px #0008}
-.site-brand-mark{position:relative;display:block;width:118px;height:43px}
-.site-brand-mark i,.site-brand-mark b{position:absolute;display:block;height:7px;background:#00a651;transform-origin:left center;left:4px;border-radius:100% 0 100% 0}
-.site-brand-mark i{width:108px;bottom:7px;transform:rotate(-7deg)}
-.site-brand-mark b{width:91px;bottom:10px;transform:rotate(-31deg)}
-.site-brand-mark em{position:absolute;display:block;width:21px;height:21px;border-radius:50%;background:#00a651;right:8px;top:8px}
-.footer-brand-clean{width:160px;height:76px}.footer-brand-clean .site-brand-mark{transform:scale(.78)}.footer-brand-clean strong{font-size:16px}
-@media(max-width:720px){.site-brand-clean{width:140px;height:82px}.site-brand-clean .site-brand-mark{transform:scale(.78)}.site-brand-clean strong{font-size:16px}.footer-brand-clean{width:140px;height:72px}}
