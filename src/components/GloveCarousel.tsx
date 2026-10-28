@@ -8,7 +8,7 @@ import "./glove-carousel.css";
 
 export function GloveCarousel({ products, onOpenProduct }: { products: Product[]; onOpenProduct: (product: Product) => void }) {
   const gloves = useMemo(
-    () => products.filter((product) => product.image).slice(0, 16),
+    () => products.filter((product) => product.image).slice(0, 5),
     [products],
   );
   const trackRef = useRef<HTMLDivElement>(null);
@@ -44,7 +44,7 @@ export function GloveCarousel({ products, onOpenProduct }: { products: Product[]
     const onResize = () => measure();
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
-  }, []);
+  }, [gloves.length]);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -93,7 +93,7 @@ export function GloveCarousel({ products, onOpenProduct }: { products: Product[]
   return <section className="glove-carousel-section" aria-labelledby="glove-carousel-title">
     <div className="ux u339 glove-carousel">
       <div className="u339-hd"><div><p>PRODUCTOS DESTACADOS</p><b id="glove-carousel-title">Elegí tu próximo equipo</b></div><div className="u339-actions"><button type="button" className="u339-pv" aria-label="Ver productos anteriores" onClick={() => moveBy(-1)}><span aria-hidden="true">←</span></button><button type="button" className="u339-nx" aria-label="Ver más productos" onClick={() => moveBy(1)}><span aria-hidden="true">→</span></button></div></div>
-      <div ref={trackRef} className="u339-tr" tabIndex={0} aria-label="Carrusel continuo de guantes. Cambia automáticamente y también podés arrastrarlo hacia los costados." onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onKeyDown={(event) => { if (event.key === "ArrowRight") { event.preventDefault(); moveBy(1); } if (event.key === "ArrowLeft") { event.preventDefault(); moveBy(-1); } }}>
+      <div ref={trackRef} className="u339-tr" tabIndex={0} aria-label="Carrusel continuo de cinco productos destacados. Cambia automáticamente y también podés arrastrarlo hacia los costados." onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onKeyDown={(event) => { if (event.key === "ArrowRight") { event.preventDefault(); moveBy(1); } if (event.key === "ArrowLeft") { event.preventDefault(); moveBy(-1); } }}>
         <div ref={rowRef} className="u339-rw" style={{ transform: `translateX(${-position}px)` }}>
           {carouselProducts.map((product, index) => {
             const duplicate = index >= gloves.length;
