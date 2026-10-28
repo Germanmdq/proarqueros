@@ -5,12 +5,10 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .u045-site .u045-ln{font-family:var(--font-sans);font-weight:600;letter-spacing:-.035em}
 .u045-site .u045-sheet small,.u045-site .u045-foot a{font-weight:500}
 html,body{background:#fff}
-.nav{position:absolute;top:34px;left:0;right:0;width:100%;margin:0;height:126px;padding:12px 24px;border:0;color:#fff;display:grid;grid-template-columns:1fr 240px 1fr;align-items:center}
-.nav .brand{grid-column:2;grid-row:1;justify-self:center}
+.nav{position:absolute;top:34px;left:0;right:0;width:100%;margin:0;height:126px;padding:12px 24px;border:0;color:#fff;display:grid;grid-template-columns:1fr 1fr;align-items:center}
 .site-logo{display:block;width:210px;height:104px;object-fit:contain;filter:none;mix-blend-mode:normal}
 .nav-links{grid-column:1;grid-row:1;justify-self:start;gap:22px;font-size:11px;letter-spacing:.08em}
-.hero-brand-circle{width:126px;height:126px;border-radius:50%;background:#20cf35;display:grid;place-items:center;overflow:hidden;box-shadow:0 5px 24px #0005}.hero-brand-circle img{width:108px;height:auto;object-fit:contain;filter:grayscale(1) brightness(0) invert(1)}
-.nav .bag{grid-column:3;grid-row:1;justify-self:end;color:#fff;margin-right:60px;font-size:12px}
+.nav .bag{grid-column:2;grid-row:1;justify-self:end;color:#fff;margin-right:60px;font-size:12px}
 .bag span{display:grid;place-items:center;background:var(--blue);color:#fff;border-radius:99px;min-width:18px;height:18px}
 /* Stable viewport height avoids resizing the hero as mobile browser bars hide. */
 .promo-ticker{height:34px;overflow:hidden;background:var(--blue);color:#fff;display:flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:800;letter-spacing:.06em;position:relative;z-index:6;width:100%}.promo-ticker>div{display:flex;min-width:max-content;animation:promo-scroll 24s linear infinite}.promo-ticker span{padding:0 18px;position:relative}.promo-ticker span:after{content:"•";position:absolute;right:0;opacity:.55}
@@ -41,7 +39,7 @@ html,body{background:#fff}
 footer{background:#0b2014;padding:28px max(40px,6vw)}
 footer .site-logo{filter:none;mix-blend-mode:normal;width:160px;height:82px}
 @keyframes promo-scroll{to{transform:translateX(-33.333%)}}
-@media(max-width:720px){.nav{top:31px;height:98px;grid-template-columns:minmax(0,1fr) 140px minmax(0,1fr);padding:5px 18px}.site-logo{width:140px;height:88px}.nav-links{display:none}.nav .bag{margin:0 50px 0 0}.promo-ticker{height:31px;font-size:8px}.promo-ticker span{padding:0 22px}.hero{height:590px;min-height:590px}.hero-image{background-position:center center}.hero-copy{padding:155px 6vw 55px}.hero h1{font-size:clamp(44px,12vw,68px)}.hero-description{font-size:14px;max-width:300px}.hero-foot{left:6vw;right:6vw}.quick-categories{display:block;padding:42px 18px 8px}.quick-categories h2{font-size:27px;margin-bottom:24px}.quick-category-grid{grid-template-columns:1fr 1fr;gap:9px}.quick-category{min-height:132px;padding:14px}.quick-category strong{font-size:15px}.collection.section{padding:35px 18px 60px}.section-top{display:block;margin-bottom:28px}.section-top .eyebrow{margin-bottom:18px}.section h2{font-size:27px}.section-intro{margin-top:14px;max-width:none}.technology{padding:60px 6vw}.club-card{min-height:350px;padding:50px 6vw}}
+@media(max-width:720px){.nav{top:31px;height:98px;grid-template-columns:1fr 1fr;padding:5px 18px}.site-logo{width:140px;height:88px}.nav-links{display:none}.nav .bag{margin:0 50px 0 0}.promo-ticker{height:31px;font-size:8px}.promo-ticker span{padding:0 22px}.hero{height:590px;min-height:590px}.hero-image{background-position:center center}.hero-copy{padding:155px 6vw 55px}.hero h1{font-size:clamp(44px,12vw,68px)}.hero-description{font-size:14px;max-width:300px}.hero-foot{left:6vw;right:6vw}.quick-categories{display:block;padding:42px 18px 8px}.quick-categories h2{font-size:27px;margin-bottom:24px}.quick-category-grid{grid-template-columns:1fr 1fr;gap:9px}.quick-category{min-height:132px;padding:14px}.quick-category strong{font-size:15px}.collection.section{padding:35px 18px 60px}.section-top{display:block;margin-bottom:28px}.section-top .eyebrow{margin-bottom:18px}.section h2{font-size:27px}.section-intro{margin-top:14px;max-width:none}.technology{padding:60px 6vw}.club-card{min-height:350px;padding:50px 6vw}}
 @media(max-width:720px){.u045-site .nav .bag{grid-column:1;justify-self:start;margin:0;gap:5px;font-size:11px}}
 
 .section-intro{font-weight:900!important}

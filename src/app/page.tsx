@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { ProductCatalog } from "@/components/ProductCatalog";
 import { LucianProductBuyCard } from "@/components/LucianProductBuyCard";
 import { LucianCartDrawer } from "@/components/LucianCartDrawer";
@@ -51,7 +50,7 @@ export default function Home() {
     });
   }
   return <LucianSiteMenu onNavigate={() => setCatalogVersion((version) => version + 1)}><main>
-    <header className="nav"><a className="brand hero-brand" href="#inicio" aria-label="ProArqueros, inicio"><span className="hero-brand-circle"><Image src="/images/proarquero-logo-transparent.png" alt="ProArqueros" width={230} height={115} priority /></span></a><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}>Carrito<span>{count}</span></button></header>
+    <header className="nav"><nav className="nav-links"><a href="#inicio">Inicio</a><a href="#coleccion">Productos</a><a href="#club">Contacto</a></nav><button className="bag" aria-label={`Abrir carrito, ${count} productos`} onClick={() => setCartOpen(true)}>Carrito<span>{count}</span></button></header>
     <div className="promo-ticker" aria-label="Beneficios de Proarquero"><div>{["ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS", "ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS", "ENVÍO GRATIS EN COMPRAS SUPERIORES A $100.000", "CONSULTÁ LAS PROMOCIONES VIGENTES", "OFERTAS Y DESCUENTOS ESPECIALES", "NUEVOS INGRESOS"].map((promotion, index) => <span key={`${promotion}-${index}`} aria-hidden={index >= 4}>{promotion}</span>)}</div></div>
     <section id="inicio" className="hero"><div className="hero-image" /><div className="hero-grain" /><div className="hero-copy"><h1 className="reveal delay-1">TODO PARA<br /><i>DEFENDER</i><br />EL ARCO.</h1><p className="hero-description reveal delay-2">Guantes, indumentaria y equipamiento para jugar con confianza.</p><a className="hero-cta" href="#coleccion">Ver productos <span aria-hidden="true">↓</span></a></div></section>
     <GloveCarousel products={products} onOpenProduct={setCarouselProduct} />
