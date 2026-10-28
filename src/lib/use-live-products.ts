@@ -5,6 +5,9 @@ import { supabase } from "@/lib/supabase";
 
 type DbRow = any;
 
+const normalizeKey = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const fallbackImages = new Map(fallbackProducts.filter((product) => product.image).map((product) => [`${normalizeKey(product.brand)}|${normalizeKey(product.name)}`, product.image!]));
+
 export function useLiveProducts() {
   const [liveProducts, setLiveProducts] = useState<Product[]>(fallbackProducts);
   useEffect(() => {
@@ -17,7 +20,9 @@ export function useLiveProducts() {
         const category = Array.isArray(row.categories) ? row.categories[0]?.name : row.categories?.name;
         const variants = (row.product_variants ?? []).map((variant: DbRow) => ({ id: variant.id, label: variant.size || "Único", size: variant.size, color: variant.color, sourceStock: variant.stock ?? 0 }));
         const audience = !row.audience || row.audience.toLowerCase() === "unisex" ? "Adulto" : row.audience;
-        return { id: row.id, sourceRow: index + 1, name: row.name, brand: brand || "Proarqueros", section: category || "Catálogo", category: category || "Accesorios", audience, price: row.price_cash_ars || 0, price3Installments: row.price_3_installments_ars, price6Installments: row.price_6_installments_ars, description: row.description || "Consultá disponibilidad.", image: row.image_url, isReferenceImage: false, stock: variants.reduce((sum: number, v: any) => sum + (v.sourceStock || 0), 0), color: null, variantLabel: "Talle", variantNote: "Elegí la variante disponible.", variants: variants.length ? variants : [{ id: `${row.id}-unico`, label: "Único", size: "Único", sourceStock: 0 }] };
+        const resolvedBrand = brand || "Proarqueros";
+        const localImage = fallbackImages.get(`${normalizeKey(resolvedBrand)}|${normalizeKey(row.name)}`) ?? null;
+        return { id: row.id, sourceRow: index + 1, name: row.name, brand: resolvedBrand, section: category || "Catálogo", category: category || "Accesorios", audience, price: row.price_cash_ars || 0, price3Installments: row.price_3_installments_ars, price6Installments: row.price_6_installments_ars, description: row.description || "Consultá disponibilidad.", image: row.image_url || localImage, isReferenceImage: false, stock: variants.reduce((sum: number, v: any) => sum + (v.sourceStock || 0), 0), color: null, variantLabel: "Talle", variantNote: "Elegí la variante disponible.", variants: variants.length ? variants : [{ id: `${row.id}-unico`, label: "Único", size: "Único", sourceStock: 0 }] };
       });
       setLiveProducts(mapped);
     });
