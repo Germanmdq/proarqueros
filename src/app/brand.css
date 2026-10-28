@@ -5,17 +5,18 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .u045-site .u045-ln{font-family:var(--font-sans);font-weight:600;letter-spacing:-.035em}
 .u045-site .u045-sheet small,.u045-site .u045-foot a{font-weight:500}
 html,body{background:#fff}
-.nav{position:absolute;top:34px;left:0;right:0;max-width:1440px;margin:auto;height:126px;padding:12px 40px;border:0;color:#fff;display:grid;grid-template-columns:1fr 240px 1fr;align-items:center}
+.nav{position:absolute;top:34px;left:0;right:0;width:100%;margin:0;height:126px;padding:12px 24px;border:0;color:#fff;display:grid;grid-template-columns:1fr 240px 1fr;align-items:center}
 .nav .brand{grid-column:2;grid-row:1;justify-self:center}
 .site-logo{display:block;width:210px;height:104px;object-fit:contain;filter:none;mix-blend-mode:normal}
-.nav-links{grid-column:1;grid-row:1;gap:22px;font-size:11px;letter-spacing:.08em}
+.nav-links{grid-column:1;grid-row:1;justify-self:start;gap:22px;font-size:11px;letter-spacing:.08em}
+.hero-brand-circle{width:126px;height:126px;border-radius:50%;background:#20cf35;display:grid;place-items:center;overflow:hidden;box-shadow:0 5px 24px #0005}.hero-brand-circle img{width:108px;height:auto;object-fit:contain;filter:grayscale(1) brightness(0) invert(1)}
 .nav .bag{grid-column:3;grid-row:1;justify-self:end;color:#fff;margin-right:60px;font-size:12px}
 .bag span{display:grid;place-items:center;background:var(--blue);color:#fff;border-radius:99px;min-width:18px;height:18px}
 /* Stable viewport height avoids resizing the hero as mobile browser bars hide. */
 .promo-ticker{height:34px;overflow:hidden;background:var(--blue);color:#fff;display:flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:800;letter-spacing:.06em;position:relative;z-index:6;width:100%}.promo-ticker>div{display:flex;min-width:max-content;animation:promo-scroll 24s linear infinite}.promo-ticker span{padding:0 18px;position:relative}.promo-ticker span:after{content:"•";position:absolute;right:0;opacity:.55}
 .hero{height:min(680px,calc(100svh - 160px));min-height:540px;max-height:none;background:#0c2719}
-.hero-image{background:linear-gradient(90deg,#06140d 0%,#06140daa 42%,transparent 88%),url('/images/home-proarqueros.png') center center/cover no-repeat;transform:none;animation:none}
-.hero-copy{padding:55px max(40px,6vw);max-width:830px}
+.hero-image{background:linear-gradient(90deg,rgba(6,20,13,.68) 0%,rgba(6,20,13,.38) 38%,rgba(6,20,13,.06) 78%),url('/images/home-proarqueros.png') center center/cover no-repeat;transform:none;animation:none}
+.hero-copy{padding:55px 24px;max-width:830px}
 .hero h1{font-size:clamp(48px,6vw,88px);line-height:.94;letter-spacing:-.065em;font-weight:650}
 .hero h1 i{font:inherit;letter-spacing:inherit;color:#9de8b5}
 .hero-description{margin:24px 0 12px;font-size:15px;max-width:380px}
