@@ -73,18 +73,19 @@
 .u221-detail-content .u221-sx{padding-left:26px;padding-right:26px}
 .u221-detail-close{position:absolute;right:14px;top:14px;z-index:5;border:1px solid #17181226;border-radius:999px;background:#fff;color:#171812;padding:10px 15px;font-size:12px;font-weight:800;box-shadow:0 3px 15px #0001}
 @media(max-width:700px){.u221-preview .u221-ph{height:340px}.u221.u221-detail{width:calc(100vw - 16px);height:94dvh;border-radius:26px}.u221-detail-content .u221-ph{height:380px}}
-.u221.u221-preview{border-radius:0;box-shadow:none;padding-bottom:0}
-.u221-preview .u221-ph{height:280px;background:#fff}
+.u221.u221-preview{border-radius:18px;border:1px solid #cfe3d5;background:#fbfefc;box-shadow:0 12px 28px rgba(11,101,53,.14),0 3px 10px rgba(16,35,26,.08);padding:10px 10px 12px;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.u221.u221-preview:hover{transform:translateY(-3px);border-color:#9dceb0;box-shadow:0 20px 42px rgba(11,101,53,.20),0 5px 14px rgba(16,35,26,.10)}
+.u221-preview .u221-ph{height:280px;border-radius:13px;background:#f6faf7;overflow:hidden}
 .u221-stock-badge{position:absolute;right:6px;top:10px;padding:5px 8px;border-radius:4px;background:var(--blue-soft,#eef5ff);color:var(--blue,#0069ed);font-size:10px;font-weight:650}
-.u221-preview .u221-if{padding:12px 4px 0;text-align:center}
+.u221-preview .u221-if{padding:14px 7px 0;text-align:center}
 .u221-preview .u221-if h3{min-height:30px;font-size:12px;font-weight:550;line-height:1.4;letter-spacing:0}
 .u221-preview .u221-brand{font-size:10px;color:#778195;text-transform:uppercase}
 .u221-preview .u221-pr{justify-content:center;flex-wrap:wrap}
 .u221-preview .u221-pr b{font-size:17px;font-weight:750}
 .u221-preview .u221-if small{color:var(--blue,#0069ed);font-weight:500}
-.u221-preview .u221-mb{margin:12px 0 0;width:100%;height:38px;border-radius:999px;background:var(--blue,#0069ed);color:#fff;font-size:11px;font-weight:600}
+.u221-preview .u221-mb{margin:12px 0 0;width:100%;height:42px;border-radius:999px;background:var(--blue,#0069ed);color:#fff;font-size:11px;font-weight:700;box-shadow:0 7px 16px rgba(11,101,53,.18)}
 .u221-preview .u221-mb:hover{background:var(--blue-dark,#004bb5)}
-.u221-finance{margin-top:12px;min-height:40px;border:1px solid #cee0fa;padding:9px 5px;text-align:center;color:var(--blue,#0069ed);font-size:11px;line-height:1.5;background:#fff}
+.u221-finance{margin-top:12px;min-height:44px;border:1px solid #b9ddc6;border-radius:9px;padding:9px 5px;text-align:center;color:var(--blue,#0069ed);font-size:11px;line-height:1.5;background:#f4fbf6}
 .u221-finance b{display:block;font-weight:700}
 .u221-by,.u221-ad.is-ok{background:var(--blue,#0069ed);color:#fff}
 .u221-detail-content .u221-mb,.u221-ad{background:var(--blue,#0069ed);color:#fff}
