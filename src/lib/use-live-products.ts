@@ -12,6 +12,10 @@ const allowedSizes = (category: string, audience: string) => category === "Guant
   : category === "Indumentaria"
     ? (audience === "Junior" ? ["8", "10", "12", "14", "16"] : ["XS", "S", "M", "L", "XL"])
     : null;
+const sortVariantsByGuide = (variants: DbRow[], guide: string[] | null) => [...variants].sort((a, b) => {
+  if (guide) return guide.indexOf(a.size) - guide.indexOf(b.size);
+  return String(a.size ?? "").localeCompare(String(b.size ?? ""), "es", { numeric: true });
+});
 
 export function useLiveProducts() {
   const [liveProducts, setLiveProducts] = useState<Product[]>(fallbackProducts);
@@ -25,7 +29,7 @@ export function useLiveProducts() {
         const category = Array.isArray(row.categories) ? row.categories[0]?.name : row.categories?.name;
         const audience = !row.audience || row.audience.toLowerCase() === "unisex" ? "Adulto" : row.audience;
         const guide = allowedSizes(category, audience);
-        const variants = (row.product_variants ?? []).filter((variant: DbRow) => !guide || guide.includes(variant.size)).map((variant: DbRow) => ({ id: variant.id, label: variant.size || "Único", size: variant.size, color: variant.color, sourceStock: variant.stock ?? 0 }));
+        const variants = sortVariantsByGuide((row.product_variants ?? []).filter((variant: DbRow) => !guide || guide.includes(variant.size)), guide).map((variant: DbRow) => ({ id: variant.id, label: variant.size || "Único", size: variant.size, color: variant.color, sourceStock: variant.stock ?? 0 }));
         const resolvedBrand = brand || "Proarqueros";
         const localImage = fallbackImages.get(`${normalizeKey(resolvedBrand)}|${normalizeKey(row.name)}`) ?? null;
         const mainImage = row.image_url || localImage;
