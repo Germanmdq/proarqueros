@@ -1,7 +1,7 @@
 .catalog{width:100%;min-width:0}
 .controls{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-bottom:28px}
 .controls label{display:flex;flex-direction:column;gap:8px;font-size:11px;font-weight:700}
-.controls input,.controls select{width:100%;min-width:0;height:42px;padding:0 12px;border:1px solid #dce2ea;border-radius:4px;background:transparent;color:var(--ink);font:inherit;font-size:13px}
+.controls input,.controls select{width:100%;min-width:0;height:44px;padding:0 13px;border:1px solid #9acdad;border-radius:8px;background:#f3faf5;color:var(--ink);box-shadow:0 8px 20px rgba(11,101,53,.12),0 2px 6px rgba(11,101,53,.08);font:inherit;font-size:13px}
 .controls input:focus-visible,.controls select:focus-visible,.empty button:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 .catalog :global(.catalog-filter){width:100%;max-width:none;margin-bottom:16px}
 .pricing{margin:0 0 34px;color:#58594f;font-size:12px;line-height:1.5}
