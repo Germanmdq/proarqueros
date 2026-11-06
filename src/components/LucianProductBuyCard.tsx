@@ -24,8 +24,7 @@ export function LucianProductBuyCard(props: Props) {
         const image = product.variants.find((variant) => variant.color === color)?.image ?? product.image;
         return <button type="button" key={color} aria-label={`Ver color ${color} de ${product.name}`} aria-pressed={(previewImage ?? product.image) === image} onClick={() => setPreviewImage(image ?? null)}>{color}</button>;
       })}</div> : null}
-      <div className="u221-if"><p className="u221-brand">{product.brand} · {product.audience}</p><h3>{product.name}</h3><div className="u221-pr"><b>{formatProductPrice(product.price)}</b><span>{product.price > 0 ? "al contado" : ""}</span></div><small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small></div>
-      {product.price3Installments ? <div className="u221-finance">3 cuotas de <b>{formatPrice(product.price3Installments / 3)}</b></div> : null}
+      <div className="u221-if"><p className="u221-brand">{product.brand} · {product.audience}</p><h3>{product.name}</h3>{product.price3Installments ? <p className="u221-list">Precio de lista en 3 cuotas <span>{formatPrice(product.price3Installments)}</span></p> : null}<div className="u221-pr"><b>{formatProductPrice(product.price)}</b><span>{product.price > 0 ? "contado / transferencia" : ""}</span></div><small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small></div>
       <button type="button" className="u221-mb" onClick={() => setExpanded(true)}>Ver producto y variantes</button>
     </article>
     {expanded ? <ProductDialog {...props} initialColor={product.variants.find((variant) => variant.image === previewImage)?.color ?? undefined} onClose={() => { setExpanded(false); props.onCloseExpanded?.(); }} /> : null}
@@ -168,7 +167,8 @@ function ProductDetails({ product, remainingStock, onAdd, titleId, initialColor 
         <div className="u221-if">
           <p className="u221-brand">{product.brand} · {product.category} · {product.audience}</p>
           <h3 id={titleId}>{product.name}</h3>
-          <div className="u221-pr"><b>{formatProductPrice(price)}</b><span>{price > 0 ? "al contado" : ""}</span></div>
+          {product.price3Installments ? <p className="u221-list">Precio de lista en 3 cuotas <span>{formatPrice(product.price3Installments)}</span></p> : null}
+          <div className="u221-pr"><b>{formatProductPrice(price)}</b><span>{price > 0 ? "contado / transferencia" : ""}</span></div>
           <small>{remainingStock > 0 ? `${remainingStock} unidades disponibles` : "Sin unidades disponibles"}</small>
         </div>
         {product.colors?.length ? <div className="u221-color-picker"><h4>Color: {color}</h4><ColorChoices product={product} color={color} onSelect={selectColor} /></div> : null}
