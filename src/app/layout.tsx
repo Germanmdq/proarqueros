@@ -17,8 +17,8 @@ const sanFrancisco = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Proarquero — Guantes e indumentaria para arqueros",
-  description: "Todos los productos para defender el arco. Guantes, indumentaria, pelotas, accesorios y calzado. Elegí tu modelo y talle en Proarquero.",
+  title: "Proarqueros — Guantes e indumentaria para arqueros",
+  description: "Todos los productos para defender el arco. Guantes, indumentaria, pelotas, accesorios y calzado. Elegí tu modelo y talle en Proarqueros.",
   icons: { icon: "/images/proarquero-logo.png" },
 };
 

@@ -61,7 +61,7 @@ export function LucianSiteMenu({ children, onNavigate }: { children: ReactNode; 
   }}>
     <div className="u045-page" inert={open}>{children}</div>
     <div id={menuId} className="u045-sheet" role="dialog" aria-modal={open ? true : undefined} aria-label="Menú principal" aria-hidden={!open} inert={!open}>
-      <small>PROARQUERO / MENÚ</small>
+      <small>PROARQUEROS / MENÚ</small>
       <ul className="u045-nav">{links.map((link, index) => <li key={link.href}><a className="u045-ln" href={link.href} style={{ "--i": index } as CSSProperties} onClick={(event) => navigate(event, link.href)} tabIndex={open ? 0 : -1}><em>{String(index + 1).padStart(2, "0")}</em><span>{link.name}</span></a></li>)}</ul>
       <div className="u045-foot"><a href="https://wa.me/5492236326323" target="_blank" rel="noreferrer" onClick={close} tabIndex={open ? 0 : -1}>WhatsApp</a><a className="go" href="#coleccion" onClick={(event) => navigate(event, "#coleccion")} tabIndex={open ? 0 : -1}>Ver catálogo</a></div>
     </div>
